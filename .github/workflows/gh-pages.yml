@@ -2,11 +2,11 @@
 
 name: github pages
 
-# Controls when the action will run. 
+# Controls when the action will run.
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
-    branches: 
+    branches:
       - main
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
@@ -23,12 +23,14 @@ jobs:
       # Runs a single command using the runners shell
       - name: Setup mdBook
         uses: peaceiris/actions-mdbook@v1
-        with: 
+        with:
           mdbook-version: 'latest'
+
+      - run: mdbook build
 
       # Runs a set of commands using the runners shell
       - name: Deploy
         uses: peaceiris/actions-mdbook@v1
-        with: 
+        with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./book
