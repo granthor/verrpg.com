@@ -1,6 +1,6 @@
 # Tales of Ver
 
-- [The Basics]()
+- [The Basics](./the-basics/the-basics.md)
 	- [What is Tales of Ver?](
 		./the-basics/what-is-tov.md
 	)
