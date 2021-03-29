@@ -11,17 +11,33 @@
 	- [Sculpting a Body & Personality](
 		./creating-a-character/sculpting-a-body-and-personality.md
 	)
-	- [What is a Character Sheet](
-		./creating-a-character/what-is-a-character-sheet.md
+	- [Character Sheets]()
+		- [What is a Character Sheet](
+			./creating-a-character/what-is-a-character-sheet.md
+		)
+		- [Characterpdf]()
+		- [Character Sheet Details](
+			./creating-a-character/character-sheet-details.md
+		)
+	- [Character Progression](
+		./creating-a-character/character-progression.md 
 	)
-	- [Character Progression]()
 	- [Attributes](
-		 ./creating-a-character/attributes.md
-	  )
-	- [Your Character's Race]()
-	- [Body Type]()
-	- [What are Skills]()
-	- [Languages]()
+		./creating-a-character/attributes.md
+	)
+	- [Your Character's Race](
+		./creating-a-character/your-character's-race.md
+	)
+	- [Body Type](
+		./creating-a-character/body-type.md
+	)
+	- [Skills](
+		./creating-a-character/skills.md
+	)
+	
+	- [Languages](
+		./creating-a-character/languages.md
+	)
 	- [Your Character's Equipment]()
 	- [Constitutions]()
 		- [Constitutions 101]()
@@ -40,7 +56,13 @@
 		- [RES Constitutions]()
 			- [Etherial (RES)]()
 			- [Histeria (RES)]()
-		
+	- [Cheat Sheets]()
+		- [Skill Costs](
+			.\creating-a-character/skill-cost-cheatsheet.md
+		)
+		- [Leveling Up](
+			.\creating-a-character/leveling-up-cheatsheet.md
+		)
 		
 ---
 - [Gameplay]()
