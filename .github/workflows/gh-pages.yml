@@ -1,0 +1,34 @@
+# This is a basic workflow to help you get started with Actions
+
+name: github pages
+
+# Controls when the action will run. 
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches: 
+      - main
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  deploy:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-18.04
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      - uses: actions/checkout@v2
+
+      # Runs a single command using the runners shell
+      - name: Setup mdBook
+        uses: peaceiris/actions-mdbook@v1
+        with: 
+          mdbook-version: 'latest'
+
+      # Runs a set of commands using the runners shell
+      - name: Deploy
+        uses: peaceiris/actions-mdbook@v1
+        with: 
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./book
