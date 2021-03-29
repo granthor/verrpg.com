@@ -1,7 +1,9 @@
 # Tales of Ver
 
 - [The Basics]()
-	- [What is ToV?]()
+	- [What is Tales of Ver?](
+		./the-basics/what-is-tov.md
+	)
 	- [What you need to play]()
 	- [Dice, Ratings, and Jargon]()
 ---
@@ -9,7 +11,9 @@
 	- [Sculpting a Body & Personality](
 		./creating-a-character/sculpting-a-body-and-personality.md
 	)
-	- [What is a Character Sheet]()
+	- [What is a Character Sheet](
+		./creating-a-character/what-is-a-character-sheet.md
+	)
 	- [Character Progression]()
 	- [Attributes]()
 	- [Your Character's Race]()
