@@ -15,7 +15,9 @@
 		./creating-a-character/what-is-a-character-sheet.md
 	)
 	- [Character Progression]()
-	- [Attributes]()
+	- [Attributes](
+		 ./creating-a-character/attributes.md
+	  )
 	- [Your Character's Race]()
 	- [Body Type]()
 	- [What are Skills]()
