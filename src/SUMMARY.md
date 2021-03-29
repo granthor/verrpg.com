@@ -20,7 +20,7 @@
 			./creating-a-character/character-sheet-details.md
 		)
 	- [Character Progression](
-		./creating-a-character/character-progression.md 
+		./creating-a-character/character-progression.md
 	)
 	- [Attributes](
 		./creating-a-character/attributes.md
@@ -34,7 +34,7 @@
 	- [Skills](
 		./creating-a-character/skills.md
 	)
-	
+
 	- [Languages](
 		./creating-a-character/languages.md
 	)
@@ -63,7 +63,7 @@
 		- [Leveling Up](
 			.\creating-a-character/leveling-up-cheatsheet.md
 		)
-		
+
 ---
 - [Gameplay]()
 	- [Skill Checks and Attacks]()
