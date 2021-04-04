@@ -49,4 +49,4 @@ words for describing exactly what you want.
 A language of traders, and adventurers, Nomadic has its roots in many
 languages, primarily Goran, Dwarvish, and Floran.
 
-## Symbal
+[Comment]: # "Add in description for Symbal, as well as more descriptions for the languages"

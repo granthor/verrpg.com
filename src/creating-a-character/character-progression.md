@@ -50,9 +50,10 @@ figure out starting amounts of LP for each Level. It is also recommended that
 GMs try to keep their players in the same ballpark in terms of levels as they
 advance, so you don’t have a party of level 3s with one level 5.
 
-| Level | 1    | 2    | 3    | 4    | 5    | 6    | 7    | 8    | 9    | 10   |
-| ----- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-| LP    | 0    | 5    | 10   | 15   | 20   | 25   | 30   | 35   | 40   | 45   |
+|     |  |  |  |  |  |  |  |  |  |   |
+|:----|-:|-:|-:|-:|-:|-:|-:|-:|-:|--:|
+|Level| 1| 2| 3| 4| 5| 6| 7| 8| 9|10|
+|LP   | 0| 5|10|15|20|25|30|35|40|45|
 
 
 Also keep in mind the amount of history, and notoriety your character has should

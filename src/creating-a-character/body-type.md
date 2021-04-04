@@ -10,66 +10,36 @@ Base Defense, this is a basic defense you add to all defense types. It reflects 
 
 Armor Class is how heavy the armor you can wear is. This should also be used to estimate how much stuff you can carry.
 
-Body Types:
+## List of Body Types
 
-**Tiny**, roughly 30 - 60 cm tall.
+||||
+|:-|:-|:-|
+|**Tiny**|Roughly 30-60 cm tall||
+|Toughness: \\(9+\frac{VIG}{2}\\)|Tenacity: \\(1+\frac{RES}{3}\\)||
+|Dexterous Defenses: \\(12+DEX+3 \cdot Level\\)|Cognitive Defenses: \\(12+COG+3 \cdot Level\\)|Resolve Defenses: \\(12+RES+3 \cdot Level\\)|
 
-Toughness: \\(9+\frac{VIG}{2}\\)
+||||
+|:-|:-|:-|
+|**Small**|Roughly 60-120 cm tall||
+|Toughness: \\(14+\frac{VIG}{2}\\)|Tenacity: \\(2+\frac{RES}{3}\\)||
+|Dexterous Defenses: \\(9+DEX+3 \cdot Level\\)|Cognitive Defenses: \\(9+COG+3 \cdot Level\\)|Resolve Defenses: \\(9+RES+3 \cdot Level\\)|
 
-Tenacity: \\(1+\frac{RES}{3}\\)
+||||
+|:-|:-|:-|
+|**Medium**|Roughly 120-210 cm tall||
+|Toughness: \\(20+\frac{VIG}{2}\\)|Tenacity: \\(4+\frac{RES}{3}\\)||
+|Dexterous Defenses: \\(6+DEX+3 \cdot Level\\)|Cognitive Defenses: \\(6+COG+3 \cdot Level\\)|Resolve Defenses: \\(6+RES+3 \cdot Level\\)|
 
-Dexterous Defenses: \\(12+DEX+3 \cdot Level\\)
+||||
+|:-|:-|:-|
+|**Large**|Roughly 210-330 cm tall||
+|Toughness: \\(25+\frac{VIG}{2}\\)|Tenacity: \\(8+\frac{RES}{3}\\)||
+|Dexterous Defenses: \\(3+DEX+3 \cdot Level\\)|Cognitive Defenses: \\(3+COG+3 \cdot Level\\)|Resolve Defenses: \\(3+RES+3 \cdot Level\\)|
 
-Cognitive Defenses: \\(12+COG+3 \cdot Level\\)
-
-Resolve Defenses: \\(12+RES+3 \cdot Level\\)
-
-**Small**, roughly 60 - 120 cm tall.
-
-Toughness: \\(14+\frac{VIG}{2}\\)
-
-Tenacity: \\(2+\frac{RES}{3}\\)
-
-Dexterous Defenses: \\\(9+DEX+3 \cdot Level\\)
-
-Cognitive Defenses: \\(9+ARC+3 \cdot Level\\)
-
-Resolve Defenses: \\(9+RES+3 \cdot Level\\)
-
-**Medium**, roughly 120 - 210 cm tall.
-
-Toughness: \\(20+\frac{VIG}{2}\\)
-
-Tenacity: \\(4+\frac{RES}{3}\\)
-
-Dexterous Defenses: \\(6+DEX+3 \cdot Level\\)
-
-Cognitive Defenses: \\(6+ARC+3 \cdot Level\\)
-
-Resolve Defenses: \\(6+RES+3 \cdot Level\\)
-
-**Large**, roughly 210 - 330 cm tall.
-
-Toughness: \\(25+\frac{VIG}{2}\\)
-
-Tenacity: \\(8+\frac{RES}{3}\\)
-
-Dexterous Defenses: \\(3+DEX+3 \cdot Level\\)
-
-Cognitive Defenses: \\(3+ARC+3 \cdot Level\\)
-
-Resolve Defenses: \\(3+RES+3 \cdot Level\\)
-
-**Huge**, roughly 330 - 480 cm tall
-
-Toughness: \\(30+\frac{VIG}{2}\\)
-
-Tenacity: \\(12+\frac{RES}{3}\\)
-
-Dexterous Defenses: \\(DEX+3 \cdot Level\\)
-
-Cognitive Defenses: \\(ARC+3 \cdot Level\\)
-
-Resolve Defenses: \\(RES+3 \cdot Level\\)
+||||
+|:-|:-|:-|
+|**Huge**|Roughly 330-480 cm tall||
+|Toughness: \\(30+\frac{VIG}{2}\\)|Tenacity: \\(12+\frac{RES}{3}\\)||
+|Dexterous Defenses: \\(DEX+3 \cdot Level\\)|Cognitive Defenses: \\(COG+3 \cdot Level\\)|Resolve Defenses: \\(RES+3 \cdot Level\\)|
 
 ## Summary
