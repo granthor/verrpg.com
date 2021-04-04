@@ -1,9 +1,7 @@
 # Tales of Ver
 
 - [The Basics](./the-basics/the-basics.md)
-	- [What is Tales of Ver?](
-		./the-basics/what-is-tov.md
-	)
+	- [What is Tales of Ver?](./the-basics/what-is-tov.md)
 	- [What you need to play]()
 	- [Dice, Ratings, and Jargon]()
 ---
@@ -19,56 +17,41 @@
 		- [Character Sheet Details](
 			./creating-a-character/character-sheet-details.md
 		)
-	- [Character Progression](
-		./creating-a-character/character-progression.md
-	)
-	- [Attributes](
-		./creating-a-character/attributes.md
-	)
-	- [Your Character's Race](
-		./creating-a-character/your-character's-race.md
-	)
-	- [Body Type](
-		./creating-a-character/body-type.md
-	)
-	- [Skills](
-		./creating-a-character/skills.md
-	)
-
-	- [Languages](
-		./creating-a-character/languages.md
-	)
+	- [Character Progression](./creating-a-character/character-progression.md)
+	- [Attributes](./creating-a-character/attributes.md)
+	- [Your Character's Race](./creating-a-character/your-character's-race.md)
+	- [Body Type](./creating-a-character/body-type.md)
+	- [Skills](./creating-a-character/skills.md)
+	- [Languages](./creating-a-character/languages.md)
 	- [Your Character's Equipment]()
 	- [Constitutions]()
-		- [Constitutions 101]()
-		- [COG Constitutions]()
-			- [Elemental Force (COG)]()
-			- [Elemental Ice (COG)]()
-			- [Elemental Light (COG)]()
-			- [Elemental Space (COG)]()
-		- [EDU Constitutions]()
-			- [Elemental Fire (EDU)]()
-			- [Elemental Land (EDU)]()
-			- [Elemental Static (EDU)]()
-			- [Elemental Time (EDU)]()
-		- [CNT Constitutions]()
-			- [Rapture (CNT)]()
-		- [RES Constitutions]()
-			- [Etherial (RES)]()
-			- [Histeria (RES)]()
+		- [Cognitive Constitutions]()
+			- [Elemental Force](
+				./creating-a-character/constitutions/elemental-force.md
+			)
+			- [Elemental Ice]()
+			- [Elemental Light]()
+			- [Elemental Space](
+				./creating-a-character/constitutions/elemental-space.md
+			)
+		- [Education Constitutions]()
+			- [Elemental Fire]()
+			- [Elemental Land]()
+			- [Elemental Static]()
+			- [Elemental Time]()
+		- [Connection Constitutions]()
+			- [Rapture]()
+		- [Resolve Constitutions]()
+			- [Etherial]()
+			- [Histeria]()
 	- [Cheat Sheets]()
-		- [Skill Costs](
-			.\creating-a-character/skill-cost-cheatsheet.md
-		)
-		- [Leveling Up](
-			.\creating-a-character/leveling-up-cheatsheet.md
-		)
-
+		- [Skill Costs](./creating-a-character/skill-cost-cheatsheet.md)
+		- [Leveling Up](./creating-a-character/leveling-up-cheatsheet.md)
 ---
 - [Gameplay]()
-	- [Skill Checks and Attacks]()
-	- [Defense]()
-	- [Fortification]()
+	- [Skill Checks and Attacks](./gameplay/skill-checks-and-attacks.md)
+	- [Defense](./gameplay/defense.md)
+	- [Fortification](./gameplay/fortification.md)
 	- [Wounds & Death]()
 	- [Surge]()
 	- [Turn Time]()
