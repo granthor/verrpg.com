@@ -272,7 +272,7 @@ also be leveling up to second Level, 10 LP should coincide roughly with Level 2,
 and so on. LP is used to buy and upgrade Skills, and improve your character with
 special Talents. Talents represent significant changes or improvements to your
 character and can drastically change how they play and interact with the world.
-Your Talent Cap, the number of Talents you can buy, is equal to \(1+\frac{LVL}{4}.\)</p>
+Your Talent Cap, the number of Talents you can buy, is equal to \(1+\frac{Level}{4}.\)</p>
 <h2 id="starting-at-higher-levels"><a class="header" href="#starting-at-higher-levels">Starting at Higher Levels</a></h2>
 <p>If you and your group decide not to start at Level 1, use the table below to
 figure out starting amounts of LP for each Level. It is also recommended that
@@ -427,12 +427,8 @@ other bonuses are applied after this cap, allowing you to surpass it.</p>
 <p>Resilience is how resilient you are to gaining wounds, that is how much toughness you regain when you take a significant hit.</p>
 <p>Base Defense, this is a basic defense you add to all defense types. It reflects your character’s size, and difficulty (or ease) to hit them.</p>
 <p>Armor Class is how heavy the armor you can wear is. This should also be used to estimate how much stuff you can carry.</p>
-<h2 id="list-of-body-types"><a class="header" href="#list-of-body-types">List of Body Types</a></h2>
-<table><thead><tr><th align="left"></th><th align="left"></th><th align="left"></th></tr></thead><tbody>
-<tr><td align="left"><strong>Tiny</strong></td><td align="left">Roughly 30-60 cm tall</td><td align="left"></td></tr>
-<tr><td align="left">Toughness: \(9+\frac{VIG}{2}\)</td><td align="left">Tenacity: \(1+\frac{RES}{3}\)</td><td align="left"></td></tr>
-<tr><td align="left">Dexterous Defenses: \(12+DEX+3 \cdot Level\)</td><td align="left">Cognitive Defenses: \(12+COG+3 \cdot Level\)</td><td align="left">Resolve Defenses: \(12+RES+3 \cdot Level\)</td></tr>
-</tbody></table>
+<h2 id="common-body-types"><a class="header" href="#common-body-types">Common Body Types</a></h2>
+<p>Most playable races are one of the following three body types.</p>
 <table><thead><tr><th align="left"></th><th align="left"></th><th align="left"></th></tr></thead><tbody>
 <tr><td align="left"><strong>Small</strong></td><td align="left">Roughly 60-120 cm tall</td><td align="left"></td></tr>
 <tr><td align="left">Toughness: \(14+\frac{VIG}{2}\)</td><td align="left">Tenacity: \(2+\frac{RES}{3}\)</td><td align="left"></td></tr>
@@ -447,6 +443,18 @@ other bonuses are applied after this cap, allowing you to surpass it.</p>
 <tr><td align="left"><strong>Large</strong></td><td align="left">Roughly 210-330 cm tall</td><td align="left"></td></tr>
 <tr><td align="left">Toughness: \(25+\frac{VIG}{2}\)</td><td align="left">Tenacity: \(8+\frac{RES}{3}\)</td><td align="left"></td></tr>
 <tr><td align="left">Dexterous Defenses: \(3+DEX+3 \cdot Level\)</td><td align="left">Cognitive Defenses: \(3+COG+3 \cdot Level\)</td><td align="left">Resolve Defenses: \(3+RES+3 \cdot Level\)</td></tr>
+</tbody></table>
+<h2 id="uncommon-body-types"><a class="header" href="#uncommon-body-types">Uncommon Body Types</a></h2>
+<p>But some creatures are smaller--or larger--than average, below are the body types for those creatures.</p>
+<table><thead><tr><th align="left"></th><th align="left"></th><th align="left"></th></tr></thead><tbody>
+<tr><td align="left"><strong>Minute</strong></td><td align="left">Roughly 5-30 cm tall</td><td align="left"></td></tr>
+<tr><td align="left">Toughness: \(6+\frac{VIG}{2}\)</td><td align="left">Tenacity: \(1+\frac{RES}{3}\)</td><td align="left"></td></tr>
+<tr><td align="left">Dexterous Defenses: \(15+DEX+3 \cdot Level\)</td><td align="left">Cognitive Defenses: \(15+COG+3 \cdot Level\)</td><td align="left">Resolve Defenses: \(15+RES+3 \cdot Level\)</td></tr>
+</tbody></table>
+<table><thead><tr><th align="left"></th><th align="left"></th><th align="left"></th></tr></thead><tbody>
+<tr><td align="left"><strong>Tiny</strong></td><td align="left">Roughly 30-60 cm tall</td><td align="left"></td></tr>
+<tr><td align="left">Toughness: \(9+\frac{VIG}{2}\)</td><td align="left">Tenacity: \(1+\frac{RES}{3}\)</td><td align="left"></td></tr>
+<tr><td align="left">Dexterous Defenses: \(12+DEX+3 \cdot Level\)</td><td align="left">Cognitive Defenses: \(12+COG+3 \cdot Level\)</td><td align="left">Resolve Defenses: \(12+RES+3 \cdot Level\)</td></tr>
 </tbody></table>
 <table><thead><tr><th align="left"></th><th align="left"></th><th align="left"></th></tr></thead><tbody>
 <tr><td align="left"><strong>Huge</strong></td><td align="left">Roughly 330-480 cm tall</td><td align="left"></td></tr>
@@ -707,7 +715,7 @@ one:</p>
 <tr><td>Level</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td></tr>
 <tr><td>Stat Cap</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>12</td><td>14</td><td>15</td><td>15</td></tr>
 </tbody></table>
-<p>Talent Cap, your max talents are \(1 + \frac{LVL}{4}\)</p>
+<p>Talent Cap, your max talents are \(1 + \frac{Level}{4}\)</p>
 <p>Possibly your Racial ability. Many racials scale based on your level.</p>
 <p>Dexterous, Cognitive, and Resolve Defenses as defined by Body Type, if you are a
 Medium character this scales by 3, otherwise check the Body Type document.</p>
@@ -929,7 +937,7 @@ forests they inhabit. They often worship Wimble.</p>
 <tr><td align="left">Mods: +3 CNT, +1 DEX, -2 VIG</td></tr>
 <tr><td align="left">Body Type: Medium</td></tr>
 <tr><td align="left">Languages: Floran</td></tr>
-<tr><td align="left">Racial: Choose an unremarkable creature to be your spiritual companion. You use your actions as theirs. Any attack against the creature acts as an attack against you with distress damage, you can refuse to take the attack, which will cause your companion to disipate untill the end of your next Good Nights Rest. Add \(4*LVL+CNT\) to actions they take which they are well suited for.</td></tr>
+<tr><td align="left">Racial: Choose an unremarkable creature to be your spiritual companion. You use your actions as theirs. Any attack against the creature acts as an attack against you with distress damage, you can refuse to take the attack, which will cause your companion to disipate untill the end of your next Good Nights Rest. Add \(4*Level+CNT\) to actions they take which they are well suited for.</td></tr>
 </tbody></table>
 <p>Fairy are thin and tall, but on the low end for elves. They have large
 insect-like wings <em>that they can use to glide, but not fly.</em> Males averaging
@@ -1011,7 +1019,7 @@ Regardless of their other devotions, almost all Harenite worship Hollbirth.</p>
 <tr><td align="left">Mods: +1 CNT, +2 RES, -1 EDU</td></tr>
 <tr><td align="left">Body Type: Medium</td></tr>
 <tr><td align="left">Languages: Nomadic</td></tr>
-<tr><td align="left">Racial: Once Per Day, you may pray to a Higher Power, and create an effect from their constitution. The rating of this effect is \(4*LVL + RES\)</td></tr>
+<tr><td align="left">Racial: Once Per Day, you may pray to a Higher Power, and create an effect from their constitution. The rating of this effect is \(4*Level + RES\)</td></tr>
 </tbody></table>
 <p>The Harenite are of lean build. Males average 65kg and 170cm. Females 60kg and
 160cm. They have no hair and their skin is rough, and ranges from red to
@@ -1052,7 +1060,7 @@ often revere Wimble.</p>
 <tr><td align="left">Mods: +2 DEX, +1 CNT, -1 VIG</td></tr>
 <tr><td align="left">Body Type: Medium</td></tr>
 <tr><td align="left">Languages: Lingvo</td></tr>
-<tr><td align="left">Racial: As a Quick Action you can attack with your beak, add \(4*LVL+DEX\) or an appropriate skill. This counts as an unarmed attack, and deals cut damage.</td></tr>
+<tr><td align="left">Racial: As a Quick Action you can attack with your beak, add \(4*Level+DEX\) or an appropriate skill. This counts as an unarmed attack, and deals cut damage.</td></tr>
 </tbody></table>
 <p>Fanin resemble a Heron. Males average 45 kg and 200cm. Females 47kg and 195cm.
 Their feathers range from grey to blue to green. Their eyes are yellow and they
@@ -1069,7 +1077,7 @@ people, and happy to be seeing the world and staying warm.</p>
 <tr><td align="left">Mods: +2 COG, +1 DEX, -1 VIG</td></tr>
 <tr><td align="left">Body Type: Small</td></tr>
 <tr><td align="left">Languages: Nomadic</td></tr>
-<tr><td align="left">Racial: Immediately after you take a wound you can create an effect from the Fire Constitution add \(4*LVL+(EDU\ or\ COG)\) or an appropriate skill.</td></tr>
+<tr><td align="left">Racial: Immediately after you take a wound you can create an effect from the Fire Constitution add \(4*Level+(EDU\ or\ COG)\) or an appropriate skill.</td></tr>
 </tbody></table>
 <p>Paruli resemble a warblers, specifically yellow warblers. Males average 10 kg
 and 80cm. Females 11kg, and 73cm. Their feathers range from a bright yellow, to
