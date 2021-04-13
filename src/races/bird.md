@@ -41,7 +41,7 @@ often revere Wimble.
 | Mods: +2 DEX, +1 CNT, -1 VIG                                                 |
 | Body Type: Medium                                                            |
 | Languages: Lingvo                                                            |
-| Racial: As a Quick Action you can attack with your beak, add \\(4\*LVL+DEX\\) or an appropriate skill. This counts as an unarmed attack, and deals cut damage. |
+| Racial: As a Quick Action you can attack with your beak, add \\(4\*Level+DEX\\) or an appropriate skill. This counts as an unarmed attack, and deals cut damage. |
 
 Fanin resemble a Heron. Males average 45 kg and 200cm. Females 47kg and 195cm.
 Their feathers range from grey to blue to green. Their eyes are yellow and they
@@ -62,7 +62,7 @@ people, and happy to be seeing the world and staying warm.
 | Mods: +2 COG, +1 DEX, -1 VIG                                                 |
 | Body Type: Small                                                             |
 | Languages: Nomadic                                                           |
-| Racial: Immediately after you take a wound you can create an effect from the Fire Constitution add \\(4\*LVL+(EDU\ or\ COG)\\) or an appropriate skill.  |
+| Racial: Immediately after you take a wound you can create an effect from the Fire Constitution add \\(4\*Level+(EDU\ or\ COG)\\) or an appropriate skill.  |
 
 Paruli resemble a warblers, specifically yellow warblers. Males average 10 kg
 and 80cm. Females 11kg, and 73cm. Their feathers range from a bright yellow, to

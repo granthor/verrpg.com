@@ -41,7 +41,7 @@ also be leveling up to second Level, 10 LP should coincide roughly with Level 2,
 and so on. LP is used to buy and upgrade Skills, and improve your character with
 special Talents. Talents represent significant changes or improvements to your
 character and can drastically change how they play and interact with the world.
-Your Talent Cap, the number of Talents you can buy, is equal to \\(1+\frac{LVL}{4}.\\)
+Your Talent Cap, the number of Talents you can buy, is equal to \\(1+\frac{Level}{4}.\\)
 
 ## Starting at Higher Levels
 

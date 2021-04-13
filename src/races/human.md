@@ -58,7 +58,7 @@ Regardless of their other devotions, almost all Harenite worship Hollbirth.
 | Mods: +1 CNT, +2 RES, -1 EDU                                                 |
 | Body Type: Medium                                                            |
 | Languages: Nomadic                                                           |
-| Racial: Once Per Day, you may pray to a Higher Power, and create an effect from their constitution. The rating of this effect is \\(4\*LVL + RES\\) |
+| Racial: Once Per Day, you may pray to a Higher Power, and create an effect from their constitution. The rating of this effect is \\(4\*Level + RES\\) |
 
 The Harenite are of lean build. Males average 65kg and 170cm. Females 60kg and
 160cm. They have no hair and their skin is rough, and ranges from red to

@@ -20,7 +20,7 @@ Attribute Cap, The max amount an attribute can be.
 |Level   |1|2|3|4|5| 6| 7| 8| 9|10|
 |Stat Cap|5|6|7|8|9|10|12|14|15|15|
 
-Talent Cap, your max talents are \\(1 + \frac{LVL}{4}\\)
+Talent Cap, your max talents are \\(1 + \frac{Level}{4}\\)
 
 Possibly your Racial ability. Many racials scale based on your level.
 
