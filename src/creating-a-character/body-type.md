@@ -10,13 +10,9 @@ Base Defense, this is a basic defense you add to all defense types. It reflects 
 
 Armor Class is how heavy the armor you can wear is. This should also be used to estimate how much stuff you can carry.
 
-## List of Body Types
+## Common Body Types
 
-||||
-|:-|:-|:-|
-|**Tiny**|Roughly 30-60 cm tall||
-|Toughness: \\(9+\frac{VIG}{2}\\)|Tenacity: \\(1+\frac{RES}{3}\\)||
-|Dexterous Defenses: \\(12+DEX+3 \cdot Level\\)|Cognitive Defenses: \\(12+COG+3 \cdot Level\\)|Resolve Defenses: \\(12+RES+3 \cdot Level\\)|
+Most playable races are one of the following three body types.
 
 ||||
 |:-|:-|:-|
@@ -35,6 +31,22 @@ Armor Class is how heavy the armor you can wear is. This should also be used to 
 |**Large**|Roughly 210-330 cm tall||
 |Toughness: \\(25+\frac{VIG}{2}\\)|Tenacity: \\(8+\frac{RES}{3}\\)||
 |Dexterous Defenses: \\(3+DEX+3 \cdot Level\\)|Cognitive Defenses: \\(3+COG+3 \cdot Level\\)|Resolve Defenses: \\(3+RES+3 \cdot Level\\)|
+
+## Uncommon Body Types
+
+But some creatures are smaller--or larger--than average, below are the body types for those creatures.
+
+||||
+|:-|:-|:-|
+|**Minute**|Roughly 5-30 cm tall||
+|Toughness: \\(6+\frac{VIG}{2}\\)|Tenacity: \\(1+\frac{RES}{3}\\)||
+|Dexterous Defenses: \\(15+DEX+3 \cdot Level\\)|Cognitive Defenses: \\(15+COG+3 \cdot Level\\)|Resolve Defenses: \\(15+RES+3 \cdot Level\\)|
+
+||||
+|:-|:-|:-|
+|**Tiny**|Roughly 30-60 cm tall||
+|Toughness: \\(9+\frac{VIG}{2}\\)|Tenacity: \\(1+\frac{RES}{3}\\)||
+|Dexterous Defenses: \\(12+DEX+3 \cdot Level\\)|Cognitive Defenses: \\(12+COG+3 \cdot Level\\)|Resolve Defenses: \\(12+RES+3 \cdot Level\\)|
 
 ||||
 |:-|:-|:-|
