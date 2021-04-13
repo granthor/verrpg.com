@@ -15,7 +15,7 @@ forests they inhabit. They often worship Wimble.
 | Mods: +3 CNT, +1 DEX, -2 VIG                                                 |
 | Body Type: Medium                                                            |
 | Languages: Floran                                                            |
-| Racial: You can dodge any attack once per day. This strains your wings, and excessive, or especially difficult use of this ability may lead to injury. |
+| Racial: Choose an unremarkable creature to be your spiritual companion. You use your actions as theirs. Any attack against the creature acts as an attack against you with distress damage, you can refuse to take the attack, which will cause your companion to disipate untill the end of your next Good Nights Rest. Add \\(4\*LVL+CNT\\) to actions they take which they are well suited for. |
 
 Fairy are thin and tall, but on the low end for elves. They have large
 insect-like wings *that they can use to glide, but not fly.* Males averaging
