@@ -60,11 +60,11 @@
 ---
 - [Races]()
 	- [Elf-Kin](./races/elf.md)
-	- [Dwarf-Kin]()
+	- [Dwarf-Kin](./races/dwarf.md)
 	- [Human-Kin](./races/human.md)
 	- [Gnome-Kin](./races/gnome.md)
 	- [Bird-Kin](./races/bird.md)
-	- [Beast-Kin]()
+	- [Beast-Kin](./races/beast.md)
 	- [Goblin-Kin]()
 	- [Golem-Kin]()
 	- [Sea-Kin]()
