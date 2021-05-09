@@ -60,11 +60,11 @@ def formatter(name, bonus, shred, rangestr, cost, prevCost = 0):
     output = pad(output, shredPad)
     output += " |\n"
 
-    output += "|:======"
-    output = pad(output, leftPadding, "=")
-    output += "==|:======="
-    output = pad(output, shredPad, "=")
-    output += "=|\n"
+    output += "|:------"
+    output = pad(output, leftPadding, "-")
+    output += "--|:-------"
+    output = pad(output, shredPad, "-")
+    output += "-|\n"
 
     output += "| Bonus: " + str(bonus)
     output = pad(output, leftPadding-bonusPad)
