@@ -65,7 +65,7 @@
 	- [Gnome-Kin](./races/gnome.md)
 	- [Bird-Kin](./races/bird.md)
 	- [Beast-Kin](./races/beast.md)
-	- [Goblin-Kin]()
+	- [Goblin-Kin](./races/goblin.md)
 	- [Golem-Kin]()
 	- [Sea-Kin]()
 ---
