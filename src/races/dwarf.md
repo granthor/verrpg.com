@@ -38,13 +38,34 @@ a Drost. They often worship Krunder, Noel, or Lindora.
 
 | Drost                                                                        |
 |:-----------------------------------------------------------------------------|
-| Mods: +1 RES, +1 VIG                                                         |
+| Mods: +1 VIG, +1 RES                                                         |
 | Body Type: Medium                                                            |
 | Languages: Dwarvish                                                          |
-| Racial: Once per day, for a quick action, you gain +10 RES until your next turn. |
+| Racial: If you did not perform a quick action last turn, then you can use your quick action as a normal action this turn. |
 
 Like muts to dog breeders, Drost can take many varied and delightful forms.
 Males average 60 kg, 140 cm. Females 57 kg, 136 cm. Their hair can come in any
 color from blond to brown or black, and their skin usually ranges from tan to a
 dull brown color. They can live for up to 225 years, and become young adults at
 15.
+
+## Pirate
+
+Not a cast of dwarvish society, but a resistance group. These dwarves left the
+dwarven fortresses centuries ago, and created their own governments focused on
+dwarven freedom. Pirates are a resolute folk who go against the tide of dwarven
+society. They often work with underground organizations to afford their living.
+If you see a dwarf without a brand, they are either quickly returning to a
+fortress, or are a Pirate.
+
+| Pirate                                                                       |
+|:-----------------------------------------------------------------------------|
+| Mods: +2 RES                                                                 |
+| Body Type: Medium                                                            |
+| Languages: Dwarvish                                                          |
+| Racial: Once per day, for a quick action, you gain +10 RES until your next turn. |
+
+Pirates appearance is much like Drost due to their lack of eugenics. Males
+average 65kg, 145 cm. Females 60kg, 140cm. Their hair can come in any color from
+blond to brown, black, or occasionally red. The skin ranges from tan to brown,
+or light red. They can live for up to 275 years, and become adults at 18
