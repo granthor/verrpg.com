@@ -70,7 +70,7 @@
 	- [Sea-Kin]()
 ---
 - [Equipment]()
-	- [Armor]()
+	- [Armor](./equipment/armor.md)
 	- [Weapons]()
 		- [Physical]()
 			- [Swords]()
@@ -80,4 +80,4 @@
 			- [Scripts]()
 		- [Spiritual]()
 			- [Sigils]()
-			- [Artisan Tools]()
+			- [Artisan Tools](./equipment/weapons/spiritual/artisantools.md)
