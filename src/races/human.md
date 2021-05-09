@@ -55,7 +55,7 @@ Regardless of their other devotions, almost all Harenite worship Hollbirth.
 
 | Harenite                                                                     |
 |:-----------------------------------------------------------------------------|
-| Mods: +1 CNT, +2 RES, -1 EDU                                                 |
+| Mods: +2 RES, +1 CNT, -1 EDU                                                 |
 | Body Type: Medium                                                            |
 | Languages: Nomadic                                                           |
 | Racial: Once Per Day, you may pray to a Higher Power, and create an effect from their constitution. The rating of this effect is \\(4\*Level + RES\\) |

@@ -59,10 +59,10 @@ people, and happy to be seeing the world and staying warm.
 
 | Paruli                                                                       |
 |:-----------------------------------------------------------------------------|
-| Mods: +2 COG, +1 DEX, -1 VIG                                                 |
+| Mods: +2 EDU, +1 DEX, -1 VIG                                                 |
 | Body Type: Small                                                             |
 | Languages: Nomadic                                                           |
-| Racial: Immediately after you take a wound you can create an effect from the Fire Constitution add \\(4\*Level+(EDU\ or\ COG)\\) or an appropriate skill.  |
+| Racial: Immediately after you take a wound you can create an effect from the Fire Constitution add \\(4\*Level+EDU\\) or an appropriate skill.  |
 
 Paruli resemble a warblers, specifically yellow warblers. Males average 10 kg
 and 80cm. Females 11kg, and 73cm. Their feathers range from a bright yellow, to

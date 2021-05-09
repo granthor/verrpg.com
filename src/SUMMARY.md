@@ -62,7 +62,7 @@
 	- [Elf-Kin](./races/elf.md)
 	- [Dwarf-Kin]()
 	- [Human-Kin](./races/human.md)
-	- [Gnome-Kin]()
+	- [Gnome-Kin](./races/gnome.md)
 	- [Bird-Kin](./races/bird.md)
 	- [Beast-Kin]()
 	- [Goblin-Kin]()
