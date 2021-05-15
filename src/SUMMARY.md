@@ -73,7 +73,7 @@
 	- [Armor](./equipment/armor.md)
 	- [Weapons]()
 		- [Physical]()
-			- [Swords]()
+			- [Swords](./equipment/weapons/physical/sword1.md)
 			- [Bludgeons]()
 		- [Magical]()
 			- [Staff](./equipment/weapons/magical/staff.md)
