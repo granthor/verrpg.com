@@ -2,61 +2,32 @@
 
 - [The Basics](./the-basics/the-basics.md)
 	- [What is Tales of Ver?](./the-basics/what-is-tov.md)
-	- [What you need to play]()
-	- [Dice, Ratings, and Jargon]()
+	- [Dice, and Jargon](./the-basics/jargon.md)
 ---
-- [Creating a Character]()
+- [Creating a Character](./creating-a-character/creating-a-character.md)
 	- [Sculpting a Body & Personality](
 		./creating-a-character/sculpting-a-body-and-personality.md
 	)
-	- [Character Sheets]()
-		- [What is a Character Sheet](
-			./creating-a-character/what-is-a-character-sheet.md
-		)
+	- [What is a Character Sheets](
+		./creating-a-character/what-is-a-character-sheet.md
+	)
 		- [Characterpdf]()
-		- [Character Sheet Details](
-			./creating-a-character/character-sheet-details.md
 		)
 	- [Character Progression](./creating-a-character/character-progression.md)
-	- [Attributes](./creating-a-character/attributes.md)
-	- [Your Character's Race](./creating-a-character/your-character's-race.md)
-	- [Body Type](./creating-a-character/body-type.md)
+	- [Your Race](./creating-a-character/race.md)
+		- [Attributes](./creating-a-character/attributes.md)
+		- [Languages](./creating-a-character/languages.md)
 	- [Skills](./creating-a-character/skills.md)
-	- [Languages](./creating-a-character/languages.md)
-	- [Your Character's Equipment]()
-	- [Constitutions]()
-		- [Cognitive Constitutions]()
-			- [Elemental Force](
-				./creating-a-character/constitutions/elemental-force.md
-			)
-			- [Elemental Ice]()
-			- [Elemental Light]()
-			- [Elemental Space](
-				./creating-a-character/constitutions/elemental-space.md
-			)
-		- [Education Constitutions]()
-			- [Elemental Fire]()
-			- [Elemental Land]()
-			- [Elemental Static]()
-			- [Elemental Time]()
-		- [Connection Constitutions]()
-			- [Mentalist](./creating-a-character/constitutions/mentalist.md)
-			- [Rapture]()
-		- [Resolve Constitutions]()
-			- [Etherial]()
-			- [Histeria]()
-	- [Cheat Sheets]()
-		- [Skill Costs](./creating-a-character/skill-cost-cheatsheet.md)
-		- [Leveling Up](./creating-a-character/leveling-up-cheatsheet.md)
+	- [Your Equipment](./creating-a-character/equipment.md)
+	- [Leveling Up](./creating-a-character/leveling-up.md)
 ---
-- [Gameplay]()
+- [Gameplay](./gameplay/gameplay.md)
+	- [Turn Time](./gameplay/turn-time.md)
 	- [Skill Checks and Attacks](./gameplay/skill-checks-and-attacks.md)
 	- [Defense](./gameplay/defense.md)
 	- [Fortification](./gameplay/fortification.md)
-	- [Wounds & Death]()
-	- [Surge]()
-	- [Turn Time]()
-	- [A Good Night's Rest]()
+	- [Wounds & Death](./gameplay/wounds-and-death.md)
+	- [Rest](./gameplay/rest.md)
 ---
 - [Races]()
 	- [Elf-Kin](./races/elf.md)
@@ -66,17 +37,33 @@
 	- [Bird-Kin](./races/bird.md)
 	- [Beast-Kin](./races/beast.md)
 	- [Goblin-Kin](./races/goblin.md)
-	- [Golem-Kin]()
+	- [Golem-Kin](./races/golem.md)
 	- [Sea-Kin]()
 ---
+- [Constitutions](./constitutions/what-are-constitutions.md)
+	- [Cognitive Constitutions]()
+		- [Elemental Force](
+			./constitutions/elemental-force.md
+		)
+		- [Elemental Ice]()
+		- [Elemental Light]()
+		- [Elemental Space](
+			./constitutions/elemental-space.md
+		)
+	- [Education Constitutions]()
+		- [Elemental Fire]()
+		- [Elemental Land]()
+		- [Elemental Static]()
+		- [Elemental Time]()
+	- [Connection Constitutions]()
+		- [Mentalist](./constitutions/mentalist.md)
+		- [Rapture]()
+	- [Resolve Constitutions]()
+		- [Etherial]()
+		- [Histeria]()
+---
 - [Equipment]()
-	- [Armor](./equipment/armor.md)
-	- [Weapons]()
-		- [Physical]()
-			- [Swords](./equipment/weapons/physical/sword1.md)
-			- [Bludgeons]()
-		- [Magical]()
-			- [Staff](./equipment/weapons/magical/staff.md)
-		- [Spiritual]()
-			- [Artisan Tools](./equipment/weapons/spiritual/artisantools.md)
-			- [Optics](./equipment/weapons/spiritual/optics.md)
+	- [Physical Weapons](./equipment/physical-weapons.md)
+	- [Magical Weapons](./equipment/magical-weapons.md)
+	- [Spiritual Weapons](./equipment/spiritual-weapons.md)
+	- [Defensive Equipment](./equipment/defensive.md)
