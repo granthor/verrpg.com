@@ -8,23 +8,21 @@ recommended you look at attributes and defenses *first* before choosing your
 race, as it will help you make a more informed decision about the impacts on
 your character.
 
-## The different kin
+## Race Rarity
 
-The races are broken up into different "kin," or families of races. These groups
-are determined based on lore reasons, which inform gameplay. Below are a list of
-kin, and a small description of what makes the group distinct.
+The primary way of distinguishing between races is rarity. Every race is either
+common, uncommon, or rare. This doesn't have much of an impact except that
+uncommon and rare races are seen less often in the world, be that because they
+only exist in certain geographical areas, or because their status in the world
+causes them to live particular lifestyles.
 
-[Elf-Kin](../races/elf.md) are naturally weak, having traded their physical
-strength for something much more valuable in their eyes, a connect to things
-greater than themselves.
+In terms of gameplay common races are more inviting for new players, having less
+mechanically heavy racials, more forgiving defenses, and incorporating into the
+world easily. Listed below are some common races we recommend checking out on
+your first time playing. If you are a returning player--or just want to be
+experimental--you can look at [Uncommon Races](../races/uncommon.md) or [Rare
+Races](../races/rare.md). Or you can look at the related races under any of the
+listed races below. Finally you can find more common races in [Common
+Races](../races/common.md)
 
-[Dwarf-Kin](../races/dwarf.md) are familial, and communal, with a strict
-cast system regulating reproduction, they are specialists from birth, whether
-they like it or not.
-
-[Human-Kin](../races/human.md) are diverse and adaptable, striking a comfortable
-balance in life.
-
-[Gnome-Kin](../races/gnome.md) are the small outsiders of the world. To be a
-gnome is not about blood or family, but about the little guys looking out for
-eachother.
+## Example Races
