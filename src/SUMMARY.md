@@ -61,6 +61,8 @@
 	- [Resolve Constitutions]()
 		- [Etherial]()
 		- [Histeria]()
+        - [Styx Redeemed] (styx-redeemed.md
+        )
 ---
 - [Equipment]()
 	- [Physical Weapons](./equipment/physical-weapons.md)
