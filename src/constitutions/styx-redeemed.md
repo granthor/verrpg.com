@@ -15,14 +15,14 @@ Summoning a Chain is a Free Action.
 
 ## Genres
 
-### Genre, Chain of Moonlit Iron
-Requires rating of Beginner (1). Summon a chain of metal appearing to be made of chilled iron. It appears wrapped around your wrist and can be extended and retracted at will, though not at a fast pace. It can be used to strike foes, but it's primary uses are to restrain or protect. 
+### Genre, Chain of Chilled Iron
+Requires rating of Beginner (1). Summon a chain of metal seeming to be made of glittering iron. It appears wrapped around your wrist and can be extended and retracted at will, though not at a fast pace. It can be used to strike foes, but it's primary uses are to restrain or protect. 
 	
 While restraining or protecting a target you must stay within range to maintain the effect, or else attempt to pull them along with you.
 	
 This chain can only grant Fortification against Physical defense types.
 	
-The Chain of Cold Iron is restricted to a Close (1-5m) Range, regardless of the idol used, and has its own hit die.
+The Chain of Chilled Iron is restricted to a Close (1-5m) Range, regardless of the idol used, and has its own hit die.
 
 | RES       | 1 Handed  | Range Close |         |         |         |
 |:--------- |:--------- |:----------- |:------- |:------- |:------- |
