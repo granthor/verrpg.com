@@ -5,6 +5,9 @@
 
 ## Precepts
 
+### Precept, Foci:
+Elemental magic requires a magical foci: Orb, Wand, Staff or Literature, to use.
+
 ### Precept, Action-Reaction
 Every force action causes some sort of reaction to the person who cause the action in the first place.
 
