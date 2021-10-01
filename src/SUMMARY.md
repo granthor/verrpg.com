@@ -45,7 +45,9 @@
 		- [Elemental Force](
 			./constitutions/elemental-force.md
 		)
-		- [Elemental Ice]()
+		- [Elemental Ice](
+        	./constitutions/elemental-ice.md
+        )
 		- [Elemental Light]()
 		- [Elemental Space](
 			./constitutions/elemental-space.md
@@ -61,7 +63,8 @@
 	- [Resolve Constitutions]()
 		- [Etherial]()
 		- [Histeria]()
-        - [Styx Redeemed] (styx-redeemed.md
+        - [Styx Redeemed] (
+        	./constitutions/styx-redeemed.md
         )
 ---
 - [Equipment]()
