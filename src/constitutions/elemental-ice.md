@@ -5,9 +5,11 @@
 
 ## Precepts
 
+### Precept, Foci:
+Elemental magic requires a magical foci: Orb, Wand, Staff or Literature, to use.
+
 ### Precept, Exchange: 
 Casting magic through Elemental Ice is a negotiation. You are required to haggle and mentally calculate the value of what you are asking, against what you are offering.
-
 
 ### Precept, Sacrifice
 The Dragon of Ice demands sacrifice, in exchange for power. Each effect must be fueled by either emotional or physical suffering. Self sacrifice is preferred, but Issandren will accept the suffering of others if inflicted by the caster. 
@@ -40,4 +42,3 @@ Animate Ice can be used to create lingering effects and ice affected will not me
 
 ## Example Use
 Intermediate (2) Caster uses Form Ice and cuts their palm, trading 1 Toughness for +2 Circumstance. Their effect succeeds and they summon a jagged wall of ice from the ground before them, stabbing and pushing back the bandit. Wounded, the bandit begins to flee. Intermediate (2) Caster waves their hand and uses Manipulate Ice to break off a dozen shards of ice from their wall and hurl them into the bandit’s back.
-
