@@ -29,15 +29,9 @@
 	- [Rest](./gameplay/rest.md)
 ---
 - [Races]()
-	- [Elf-Kin](./races/elf.md)
-	- [Dwarf-Kin](./races/dwarf.md)
-	- [Human-Kin](./races/human.md)
-	- [Gnome-Kin](./races/gnome.md)
-	- [Bird-Kin](./races/bird.md)
-	- [Beast-Kin](./races/beast.md)
-	- [Goblin-Kin](./races/goblin.md)
-	- [Golem-Kin](./races/golem.md)
-	- [Sea-Kin]()
+	- [Common](./races/common.md)
+	- [Uncommon](./races/uncommon.md)
+	- [Rare]()
 ---
 - [Constitutions](./constitutions/what-are-constitutions.md)
 	- [Cognitive Constitutions]()
