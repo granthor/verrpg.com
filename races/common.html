@@ -1,0 +1,258 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Common - Tales of Ver Documentation</title>
+        <!-- Custom HTML head -->
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <!-- MathJax -->
+        <script async type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../the-basics/the-basics.html"><strong aria-hidden="true">1.</strong> The Basics</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../the-basics/what-is-tov.html"><strong aria-hidden="true">1.1.</strong> What is Tales of Ver?</a></li><li class="chapter-item expanded "><a href="../the-basics/jargon.html"><strong aria-hidden="true">1.2.</strong> Dice, and Jargon</a></li><li class="spacer"></li></ol></li><li class="chapter-item expanded "><a href="../creating-a-character/creating-a-character.html"><strong aria-hidden="true">2.</strong> Creating a Character</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../creating-a-character/sculpting-a-body-and-personality.html"><strong aria-hidden="true">2.1.</strong> Sculpting a Body &amp; Personality</a></li><li class="chapter-item expanded "><a href="../creating-a-character/what-is-a-character-sheet.html"><strong aria-hidden="true">2.2.</strong> What is a Character Sheets</a></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">2.2.1.</strong> Characterpdf</div></li></ol></li><li class="chapter-item expanded "><a href="../creating-a-character/character-progression.html"><strong aria-hidden="true">2.3.</strong> Character Progression</a></li><li class="chapter-item expanded "><a href="../creating-a-character/race.html"><strong aria-hidden="true">2.4.</strong> Your Race</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../creating-a-character/attributes.html"><strong aria-hidden="true">2.4.1.</strong> Attributes</a></li><li class="chapter-item expanded "><a href="../creating-a-character/languages.html"><strong aria-hidden="true">2.4.2.</strong> Languages</a></li></ol></li><li class="chapter-item expanded "><a href="../creating-a-character/skills.html"><strong aria-hidden="true">2.5.</strong> Skills</a></li><li class="chapter-item expanded "><a href="../creating-a-character/equipment.html"><strong aria-hidden="true">2.6.</strong> Your Equipment</a></li><li class="chapter-item expanded "><a href="../creating-a-character/leveling-up.html"><strong aria-hidden="true">2.7.</strong> Leveling Up</a></li><li class="spacer"></li></ol></li><li class="chapter-item expanded "><a href="../gameplay/gameplay.html"><strong aria-hidden="true">3.</strong> Gameplay</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../gameplay/turn-time.html"><strong aria-hidden="true">3.1.</strong> Turn Time</a></li><li class="chapter-item expanded "><a href="../gameplay/skill-checks-and-attacks.html"><strong aria-hidden="true">3.2.</strong> Skill Checks and Attacks</a></li><li class="chapter-item expanded "><a href="../gameplay/defense.html"><strong aria-hidden="true">3.3.</strong> Defense</a></li><li class="chapter-item expanded "><a href="../gameplay/fortification.html"><strong aria-hidden="true">3.4.</strong> Fortification</a></li><li class="chapter-item expanded "><a href="../gameplay/wounds-and-death.html"><strong aria-hidden="true">3.5.</strong> Wounds &amp; Death</a></li><li class="chapter-item expanded "><a href="../gameplay/rest.html"><strong aria-hidden="true">3.6.</strong> Rest</a></li><li class="spacer"></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">4.</strong> Races</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="../races/common.html" class="active"><strong aria-hidden="true">4.1.</strong> Common</a></li><li class="chapter-item expanded "><a href="../races/uncommon.html"><strong aria-hidden="true">4.2.</strong> Uncommon</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">4.3.</strong> Rare</div></li><li class="spacer"></li></ol></li><li class="chapter-item expanded "><a href="../constitutions/what-are-constitutions.html"><strong aria-hidden="true">5.</strong> Constitutions</a></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">5.1.</strong> Cognitive Constitutions</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="../constitutions/elemental-force.html"><strong aria-hidden="true">5.1.1.</strong> Elemental Force</a></li><li class="chapter-item expanded "><a href="../constitutions/elemental-ice.html"><strong aria-hidden="true">5.1.2.</strong> Elemental Ice</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">5.1.3.</strong> Elemental Light</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">5.1.4.</strong> Elemental Space</div></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">5.2.</strong> Education Constitutions</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">5.2.1.</strong> Elemental Fire</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">5.2.2.</strong> Elemental Land</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">5.2.3.</strong> Elemental Static</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">5.2.4.</strong> Elemental Time</div></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">5.3.</strong> Connection Constitutions</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="../constitutions/mentalist.html"><strong aria-hidden="true">5.3.1.</strong> Mentalist</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">5.3.2.</strong> Rapture</div></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">5.4.</strong> Resolve Constitutions</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">5.4.1.</strong> Ethereal</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">5.4.2.</strong> Hysteria</div></li><li class="chapter-item expanded "><a href="../constitutions/styx-redeemed.html"><strong aria-hidden="true">5.4.3.</strong> Styx-Redeemed</a></li><li class="spacer"></li></ol></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">6.</strong> Equipment</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="../equipment/physical-weapons.html"><strong aria-hidden="true">6.1.</strong> Physical Weapons</a></li><li class="chapter-item expanded "><a href="../equipment/magical-weapons.html"><strong aria-hidden="true">6.2.</strong> Magical Weapons</a></li><li class="chapter-item expanded "><a href="../equipment/spiritual-weapons.html"><strong aria-hidden="true">6.3.</strong> Spiritual Weapons</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">6.4.</strong> Defensive Equipment</div></li><li class="spacer"></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">7.</strong> Traits</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="../traits/companions.html"><strong aria-hidden="true">7.1.</strong> Companion Traits</a></li><li class="chapter-item expanded "><a href="../traits/personality.html"><strong aria-hidden="true">7.2.</strong> Personality Traits</a></li><li class="chapter-item expanded "><a href="../traits/fields.html"><strong aria-hidden="true">7.3.</strong> Field Traits</a></li><li class="chapter-item expanded "><a href="../traits/racials.html"><strong aria-hidden="true">7.4.</strong> Racial Traits</a></li><li class="chapter-item expanded "><a href="../traits/warfare.html"><strong aria-hidden="true">7.5.</strong> Warfare Traits</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Tales of Ver Documentation</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="common-races"><a class="header" href="#common-races">Common Races</a></h1>
+<h2 id="vincal"><a class="header" href="#vincal">Vincal</a></h2>
+<p>Vincal are skilled communicators, diplomats, and team players. They are commonly found in positions of political, or religious leadership, and are good with people. They commonly worship the gods, especially Wordix and Hollbirth.</p>
+<table><thead><tr><th align="left">Defenses</th><th align="right"></th><th align="right"></th><th align="left"></th><th align="left"></th><th align="right"></th></tr></thead><tbody>
+<tr><td align="left">Escape</td><td align="right">0</td><td align="right">Thaumic</td><td align="left">-1</td><td align="left">Resilience</td><td align="right">0</td></tr>
+<tr><td align="left">Blunt</td><td align="right">-1</td><td align="right">Null</td><td align="left">-1</td><td align="left">Aegis</td><td align="right">0</td></tr>
+<tr><td align="left">Cut</td><td align="right">-1</td><td align="right">Wit</td><td align="left">0</td><td align="left">Will</td><td align="right">0</td></tr>
+</tbody></table>
+<table><thead><tr><th align="left"></th></tr></thead><tbody>
+<tr><td align="left"><strong>Attributes:</strong> Start with -4 in every stat. Roll 1d6 six times and add one dice of your choosing to each attribute; reroll your highest and lowest dice. Add 1 to an attribute of your choosing.</td></tr>
+<tr><td align="left"><strong>Racial:</strong> You may increase someone’s Disposition towards you by one, through conversing with them for ten minutes. Their Disposition towards you must be Unfriendly(-1) to Friendly(1). Upon doing so the GM will decrease an NPC of their choosings’s Disposition towards you by one.</td></tr>
+<tr><td align="left"><strong>Languages:</strong> Common &amp; either Dwarvish, Goran, or Nomadic</td></tr>
+<tr><td align="left"><strong>Characteristics:</strong> Vincal are average and fair of build. Males average 68kg and 170cm. Females 64kg and 160cm. Their hair ranges from blond to black, and their skin from light to dark. Their eyes are usually blue or a deep brown. They can live for 100 years, and become an adult at 16.</td></tr>
+</tbody></table>
+<h2 id="goran"><a class="header" href="#goran">Goran</a></h2>
+<p>The survivors, the wanderers, Goran live where living is hard and life can end with the fall of a monster’s claw, or a frigid wind’s breath. They live tribally, and don’t mix much with other races. Skill in combat is essential in their barbarian society, and everything from personal disputes to politics can be solved through conflict. They usually worship Grondshok, though a few follow Wimble. Some of the more brutal tribes follow darker entities still.</p>
+<table><thead><tr><th align="left">Defenses</th><th align="right"></th><th align="right"></th><th align="left"></th><th align="left"></th><th align="right"></th></tr></thead><tbody>
+<tr><td align="left">Escape</td><td align="right">-1</td><td align="right">Thaumic</td><td align="left">-1</td><td align="left">Resilience</td><td align="right">0</td></tr>
+<tr><td align="left">Blunt</td><td align="right">0</td><td align="right">Null</td><td align="left">-1</td><td align="left">Aegis</td><td align="right">-1</td></tr>
+<tr><td align="left">Cut</td><td align="right">0</td><td align="right">Wit</td><td align="left">0</td><td align="left">Will</td><td align="right">0</td></tr>
+</tbody></table>
+<table><thead><tr><th align="left"></th></tr></thead><tbody>
+<tr><td align="left"><strong>Attributes:</strong>  Start with -4 in every stat. Roll 1d6 six times and add one dice of your choosing to each attribute; your VIG must be equal to or greater than 0, if this is not possible re-roll a die until it is. Add 1 to an attribute of your choosing.</td></tr>
+<tr><td align="left"><strong>Racial:</strong> When you suffer a wound immediately take an extra turn, gaining a Movement &amp; Normal Action. Effects that happen at the start of your turn happen immediately. If the wound would kill you, gain this xtra turn in addition to your last action before death.</td></tr>
+<tr><td align="left"><strong>Languages:</strong> Goran</td></tr>
+<tr><td align="left"><strong>Characteristics:</strong> Goran are huge, tall, and imposing. Males average 91kg and 200cm. Females 77kg and 170cm. Their hair is usually black or brown. Their skin ranges from pale to a red tan. Their eyes can be blue, brown or black. They can live for 90 years, and become an adult at 10.</td></tr>
+</tbody></table>
+<h2 id="fairy"><a class="header" href="#fairy">Fairy</a></h2>
+<p>The fairy are a reserved race. They chose to focus on their connection to the land and forest. This gave them wings that they can glide with, but not fly. They use these wings to traverse the forests they inhabit. They often worship Wimble.</p>
+<table><thead><tr><th align="left">Defenses</th><th align="right"></th><th align="left"></th><th align="left"></th><th align="left"></th><th align="right"></th></tr></thead><tbody>
+<tr><td align="left">Escape</td><td align="right">1</td><td align="left">Thaumic</td><td align="left">-1</td><td align="left">Resilience</td><td align="right">0</td></tr>
+<tr><td align="left">Blunt</td><td align="right">-2</td><td align="left">Null</td><td align="left">-1</td><td align="left">Aegis</td><td align="right">-1</td></tr>
+<tr><td align="left">Cut</td><td align="right">0</td><td align="left">Wit</td><td align="left">0</td><td align="left">Will</td><td align="right">0</td></tr>
+</tbody></table>
+<table><thead><tr><th align="left"></th></tr></thead><tbody>
+<tr><td align="left"><strong>Attributes:</strong>      Start with -4 in every stat. Roll 1d6 six times and add one dice of your choosing to each attribute; you may choose not to add one to VIG. Add 1 to an attribute of your choosing.</td></tr>
+<tr><td align="left"><strong>Racial:</strong> At the start of Turn Time you may add -VIG to your Initiative roll.</td></tr>
+<tr><td align="left"><strong>Languages:</strong> Floran</td></tr>
+<tr><td align="left"><strong>Characteristics:</strong> Fairy are thin and tall, but on the low end for elves. They have large insect-like wings <em>that they can use to glide, but not fly.</em> Males averaging 64kg, 170 cm. Females averaging 68kg, 190cm. Their hair and eyes can be green or brown, and their hair is very thick. Their skin varies from light to dark brown. Fairy can live up to 200 years, and become young adults at 16.</td></tr>
+</tbody></table>
+<h2 id="kalic"><a class="header" href="#kalic">Kalic</a></h2>
+<p>The Kalic are a domineering race. They chose to focus on their connection to the dragons, and it paid off. Oftentimes Kalics are the strongest mages in the world. If they worship anything it is usually an elemental dragon, or Tonk.</p>
+<table><thead><tr><th align="left">Defenses</th><th align="right"></th><th align="right"></th><th align="left"></th><th align="left"></th><th align="right"></th></tr></thead><tbody>
+<tr><td align="left">Escape</td><td align="right">0</td><td align="right">Thaumic</td><td align="left">1</td><td align="left">Resilience</td><td align="right">-2</td></tr>
+<tr><td align="left">Blunt</td><td align="right">-2</td><td align="right">Null</td><td align="left">1</td><td align="left">Aegis</td><td align="right">-1</td></tr>
+<tr><td align="left">Cut</td><td align="right">-1</td><td align="right">Wit</td><td align="left">0</td><td align="left">Will</td><td align="right">0</td></tr>
+</tbody></table>
+<table><thead><tr><th align="left"></th></tr></thead><tbody>
+<tr><td align="left"><strong>Attributes:</strong>      Start with -4 in every stat. Roll 1d6 six times and add one dice of your choosing to each attribute; you may choose not to add one to VIG. Add 1 to an attribute of your choosing.</td></tr>
+<tr><td align="left"><strong>Racial:</strong> You may add -VIG to any EDU or COG roll for arcane purposes, in exchange you lose your Move Action next turn.</td></tr>
+<tr><td align="left"><strong>Languages:</strong> Common</td></tr>
+<tr><td align="left"><strong>Characteristics:</strong> Kalics are generally thin and tall, with males averaging around 70kg, 220cm, and females slightly thinner and taller at 68kg, 230cm. They have pale white skin, but as they get better at a given element of magic, their skin tints slightly. Kalics hair is a sight to behold, being white, silver, or gold, and having a strong glisten to it, Kalics traditionally wear their hair long. But this rarely covers their face, as they are also prideful of their Blue, Silver, or Purple eyes. Kalics can live up to 500 years, and become young adults at the late age of 20.</td></tr>
+<tr><td align="left"></td></tr>
+</tbody></table>
+<h2 id="drost"><a class="header" href="#drost">Drost</a></h2>
+<p>The laborer cast of dwarvish society. Drost work hard to keep a fortress running, ore flowing, and mugs of mead filled to the brim. They are also the least restricted of the Dwarf-Kin, and most likely to be seen venturing outside of a fortress without the brand of a race traitor. Any dwarf not of a specific bloodline, or resulting in the unregulated mixing of two bloodlines, is cast as a Drost. They often worship Krunder, Noel, or Lindora.</p>
+<table><thead><tr><th align="left">Defenses</th><th align="right"></th><th align="left"></th><th align="right"></th><th align="left"></th><th align="right"></th></tr></thead><tbody>
+<tr><td align="left">Escape</td><td align="right">-1</td><td align="left">Thaumic</td><td align="right">-1</td><td align="left">Resilience</td><td align="right">1</td></tr>
+<tr><td align="left">Blunt</td><td align="right">0</td><td align="left">Null</td><td align="right">-1</td><td align="left">Aegis</td><td align="right">-1</td></tr>
+<tr><td align="left">Cut</td><td align="right">0</td><td align="left">Wit</td><td align="right">-1</td><td align="left">Will</td><td align="right">0</td></tr>
+</tbody></table>
+<table><thead><tr><th align="left"></th></tr></thead><tbody>
+<tr><td align="left"><strong>Attributes:</strong> Start with -4 in every stat. Roll 1d6 six times and add one dice of your choosing to each attribute; your RES must be equal to or greater than 0, if this is not possible re-roll a die until it is. Add 1 to an attribute of your choosing.</td></tr>
+<tr><td align="left"><strong>Racial:</strong> When you suffer a Wound, gain +4 Defense against the damage type which dealt it until the wound is healed.</td></tr>
+<tr><td align="left"><strong>Languages:</strong> Dwarvish</td></tr>
+<tr><td align="left"><strong>Characteristics:</strong> Like muts to dog breeders, Drost can take many varied and delightful forms. Males average 60 kg, 140 cm. Females 57 kg, 136 cm. Their hair can come in any color from blond to brown or black, and their skin usually ranges from tan to a dull brown color. They can live for up to 225 years, and become adults at 15.</td></tr>
+</tbody></table>
+<h2 id="pirate"><a class="header" href="#pirate">Pirate</a></h2>
+<p>Not a cast of dwarvish society, but a resistance group. These dwarves left the dwarven fortresses centuries ago, and created their own governments focused on dwarven freedom. Pirates are a resolute folk who go against the tide of dwarven society. They often work with underground organizations to afford their living. If you see a dwarf without a brand, they are either quickly returning to a fortress, or are a Pirate.</p>
+<table><thead><tr><th align="left">Defenses</th><th align="right"></th><th align="left"></th><th align="right"></th><th align="left"></th><th align="right"></th></tr></thead><tbody>
+<tr><td align="left">Escape</td><td align="right">-1</td><td align="left">Thaumic</td><td align="right">-1</td><td align="left">Resilience</td><td align="right">0</td></tr>
+<tr><td align="left">Blunt</td><td align="right">0</td><td align="left">Null</td><td align="right">-1</td><td align="left">Aegis</td><td align="right">-1</td></tr>
+<tr><td align="left">Cut</td><td align="right">0</td><td align="left">Wit</td><td align="right">-1</td><td align="left">Will</td><td align="right">1</td></tr>
+</tbody></table>
+<table><thead><tr><th align="left"></th></tr></thead><tbody>
+<tr><td align="left"><strong>Attributes:</strong> Start with -4 in every stat. Roll 1d6 six times and add one dice of your choosing to each attribute. Add 1 to RES, if this would make your RES greater than 2, then instead add 1 to any attribute of your choosing.</td></tr>
+<tr><td align="left"><strong>Racial:</strong> You may increase all spiritual defenses by 1 until the end of your next turn. Until your defenses return to normal you cannot use your move action.</td></tr>
+<tr><td align="left"><strong>Languages:</strong> Dwarvish</td></tr>
+<tr><td align="left"><strong>Characteristics:</strong> Pirates appearance is much like Drost due to their lack of eugenics. Males average 65kg, 145 cm. Females 60kg, 140cm. Their hair can come in any color from blond to brown, black, or occasionally red. The skin ranges from tan to brown, or light red. They can live for up to 275 years, and become adults at 18</td></tr>
+</tbody></table>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../gameplay/rest.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="../races/uncommon.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../gameplay/rest.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="../races/uncommon.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+    </body>
+</html>

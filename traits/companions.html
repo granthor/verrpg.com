@@ -1,0 +1,236 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Companion Traits - Tales of Ver Documentation</title>
+        <!-- Custom HTML head -->
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <!-- MathJax -->
+        <script async type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../the-basics/the-basics.html"><strong aria-hidden="true">1.</strong> The Basics</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../the-basics/what-is-tov.html"><strong aria-hidden="true">1.1.</strong> What is Tales of Ver?</a></li><li class="chapter-item expanded "><a href="../the-basics/jargon.html"><strong aria-hidden="true">1.2.</strong> Dice, and Jargon</a></li><li class="spacer"></li></ol></li><li class="chapter-item expanded "><a href="../creating-a-character/creating-a-character.html"><strong aria-hidden="true">2.</strong> Creating a Character</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../creating-a-character/sculpting-a-body-and-personality.html"><strong aria-hidden="true">2.1.</strong> Sculpting a Body &amp; Personality</a></li><li class="chapter-item expanded "><a href="../creating-a-character/what-is-a-character-sheet.html"><strong aria-hidden="true">2.2.</strong> What is a Character Sheets</a></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">2.2.1.</strong> Characterpdf</div></li></ol></li><li class="chapter-item expanded "><a href="../creating-a-character/character-progression.html"><strong aria-hidden="true">2.3.</strong> Character Progression</a></li><li class="chapter-item expanded "><a href="../creating-a-character/race.html"><strong aria-hidden="true">2.4.</strong> Your Race</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../creating-a-character/attributes.html"><strong aria-hidden="true">2.4.1.</strong> Attributes</a></li><li class="chapter-item expanded "><a href="../creating-a-character/languages.html"><strong aria-hidden="true">2.4.2.</strong> Languages</a></li></ol></li><li class="chapter-item expanded "><a href="../creating-a-character/skills.html"><strong aria-hidden="true">2.5.</strong> Skills</a></li><li class="chapter-item expanded "><a href="../creating-a-character/equipment.html"><strong aria-hidden="true">2.6.</strong> Your Equipment</a></li><li class="chapter-item expanded "><a href="../creating-a-character/leveling-up.html"><strong aria-hidden="true">2.7.</strong> Leveling Up</a></li><li class="spacer"></li></ol></li><li class="chapter-item expanded "><a href="../gameplay/gameplay.html"><strong aria-hidden="true">3.</strong> Gameplay</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../gameplay/turn-time.html"><strong aria-hidden="true">3.1.</strong> Turn Time</a></li><li class="chapter-item expanded "><a href="../gameplay/skill-checks-and-attacks.html"><strong aria-hidden="true">3.2.</strong> Skill Checks and Attacks</a></li><li class="chapter-item expanded "><a href="../gameplay/defense.html"><strong aria-hidden="true">3.3.</strong> Defense</a></li><li class="chapter-item expanded "><a href="../gameplay/fortification.html"><strong aria-hidden="true">3.4.</strong> Fortification</a></li><li class="chapter-item expanded "><a href="../gameplay/wounds-and-death.html"><strong aria-hidden="true">3.5.</strong> Wounds &amp; Death</a></li><li class="chapter-item expanded "><a href="../gameplay/rest.html"><strong aria-hidden="true">3.6.</strong> Rest</a></li><li class="spacer"></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">4.</strong> Races</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="../races/common.html"><strong aria-hidden="true">4.1.</strong> Common</a></li><li class="chapter-item expanded "><a href="../races/uncommon.html"><strong aria-hidden="true">4.2.</strong> Uncommon</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">4.3.</strong> Rare</div></li><li class="spacer"></li></ol></li><li class="chapter-item expanded "><a href="../constitutions/what-are-constitutions.html"><strong aria-hidden="true">5.</strong> Constitutions</a></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">5.1.</strong> Cognitive Constitutions</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="../constitutions/elemental-force.html"><strong aria-hidden="true">5.1.1.</strong> Elemental Force</a></li><li class="chapter-item expanded "><a href="../constitutions/elemental-ice.html"><strong aria-hidden="true">5.1.2.</strong> Elemental Ice</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">5.1.3.</strong> Elemental Light</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">5.1.4.</strong> Elemental Space</div></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">5.2.</strong> Education Constitutions</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">5.2.1.</strong> Elemental Fire</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">5.2.2.</strong> Elemental Land</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">5.2.3.</strong> Elemental Static</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">5.2.4.</strong> Elemental Time</div></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">5.3.</strong> Connection Constitutions</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="../constitutions/mentalist.html"><strong aria-hidden="true">5.3.1.</strong> Mentalist</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">5.3.2.</strong> Rapture</div></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">5.4.</strong> Resolve Constitutions</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">5.4.1.</strong> Ethereal</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">5.4.2.</strong> Hysteria</div></li><li class="chapter-item expanded "><a href="../constitutions/styx-redeemed.html"><strong aria-hidden="true">5.4.3.</strong> Styx-Redeemed</a></li><li class="spacer"></li></ol></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">6.</strong> Equipment</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="../equipment/physical-weapons.html"><strong aria-hidden="true">6.1.</strong> Physical Weapons</a></li><li class="chapter-item expanded "><a href="../equipment/magical-weapons.html"><strong aria-hidden="true">6.2.</strong> Magical Weapons</a></li><li class="chapter-item expanded "><a href="../equipment/spiritual-weapons.html"><strong aria-hidden="true">6.3.</strong> Spiritual Weapons</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">6.4.</strong> Defensive Equipment</div></li><li class="spacer"></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">7.</strong> Traits</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="../traits/companions.html" class="active"><strong aria-hidden="true">7.1.</strong> Companion Traits</a></li><li class="chapter-item expanded "><a href="../traits/personality.html"><strong aria-hidden="true">7.2.</strong> Personality Traits</a></li><li class="chapter-item expanded "><a href="../traits/fields.html"><strong aria-hidden="true">7.3.</strong> Field Traits</a></li><li class="chapter-item expanded "><a href="../traits/racials.html"><strong aria-hidden="true">7.4.</strong> Racial Traits</a></li><li class="chapter-item expanded "><a href="../traits/warfare.html"><strong aria-hidden="true">7.5.</strong> Warfare Traits</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Tales of Ver Documentation</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="companion-traits"><a class="header" href="#companion-traits">Companion Traits</a></h1>
+<p>The traits in this document are focused around companions, familiars, and pets
+that help your character.</p>
+<p><strong>Has a Pet</strong>, Tales: 2</p>
+<p>This trait may only be taken at character creation or at GM discretion.</p>
+<p>You have an ordinary pet, partially trained. They are an independent, mortal
+creature. A comforting companion.</p>
+<p>Choose a commonly domesticated or tamable animal for your pet. They count as an
+NPC, and are controlled by the GM. As with any animal, you can perform a CNT
+roll or relevant skill check to attempt to command or communicate with them.
+Your pet is mortal, it can get sick, injured, and be killed. In the case your
+pet has died you may pay 1 tale to gain a new one at GM discretion.</p>
+<p>Pets use a simplified stat block with ATTS collapsed into three categories:
+Physical (VIG/DEX), Mental (EDU/COG), and Spiritual (CNT/RES); Defensees
+collapse into three similar categories: Dexterous, Cognitive, and Resolve.
+Determine values with the GM, following these guidelines.</p>
+<ul>
+<li>Total ATT: -2,</li>
+<li>Total Defense: -2,</li>
+<li>Toughness: 5 - 8,</li>
+<li>Tenacity: 2 - 4,</li>
+<li>Max Wounds: 2,</li>
+<li>One Beginner (1) Background Skill in being whatever type of creature they are.</li>
+</ul>
+<p><strong>Has a Familiar</strong>, Tales: 12, Requires ‘Has a Pet’</p>
+<p>Gain a new familiar in addition to your pet. Alternatively, your old pet and
+the bond between you has been enhanced and transformed them into a stronger
+creature.</p>
+<p>Choose a somewhat exotic animal, or common magical creature for your familiar.
+They count as an NPC and are controlled by the GM, but you can give them basic
+commands with a Free action. Your familiar is mortal, it can get sick, injured,
+and be killed. In the case your familiar has died you may pay 1 Tale to gain a
+new one at GM discretion.</p>
+<p>Familiars are more powerful, and your connection is too. Gain your familiar’s
+natural language. For a Free action you can sense the general direction and
+distance between you and your familiar. Because familiars are strong, determine
+a new stat block with your GM based on these guidelines.</p>
+<ul>
+<li>Total ATT: 0,</li>
+<li>Total Defense: 1,</li>
+<li>Toughness: 8 - 12,</li>
+<li>Tenacity: 3 - 6,</li>
+<li>Max Wounds: 2,</li>
+<li>One Beginner (1) Background Skill in being whatever type of creature they are.</li>
+<li>One Intermediate (2) Skill of your choosing.</li>
+</ul>
+<p><strong>Pet Assistant</strong>, Tales: 3, Requires ‘Has a Pet’</p>
+<p>When within arms reach of your pet, or familiar, you may choose to have them
+assist you with a skill check. The pet loses 1 Toughness as it exerts itself to
+help you. You gain a Circumstance bonus equal to your pet’s applicable ATT stat.</p>
+<p><strong>Bonded Familiar</strong>, Tales: 3, Requires ‘Has a Pet’</p>
+<p>The bond between you and your pet or familiar is extraordinarily strong. With a
+Free action you can sense the precise direction and distance between you and
+your familiar at any range. While within Close to Far range you can discern your
+familiars exact location, status, and communicate telepathically. For a Movement
+or Normal action you may meld your and your Familiar’s Mental Surface,
+experiencing each other’s current thoughts, sensory input, and short term
+memory.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../equipment/spiritual-weapons.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="../traits/personality.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../equipment/spiritual-weapons.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="../traits/personality.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+    </body>
+</html>
