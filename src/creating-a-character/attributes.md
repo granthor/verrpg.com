@@ -2,19 +2,19 @@
 
 Attributes are your character’s core stats, and are the simplest distillation of
 your character’s capabilities. There are 6 Attributes each with scores which
-range from -15 to 15. When your character does something that requires a die
-roll you will always add one of these Attributes to the result, probably along
-with other bonuses from Skills and Equipment.
+range from -6 to 6. When your character does something that requires a die
+roll you will always add one of these Attributes to the result, along with any
+[circumstancial bonuses or penalties](../gameplay/circumstance.md).
 
 ## Vigor (VIG)
 
 Vigor is your raw strength, and physical limits of your body. It allows you to
-wear heavier armor into battle, and become a walking tank. You can also wield
-heavy weapons like Great Axes, Long bows, and Halberds. Crush stone with your
-bare hands and break down doors with your bare feet. Higher Vigor will let you
-chop down trees in a single blow, pick up 10m high stone statues, and win every
-game of tug o’ war. Lower Vigor leaves you meek and fragile, easy to wound, and
-struggling to carry the groceries home from the market.
+become a walking tank, wielding great weapons like Long bows, Great Axes, and
+Halberds. Crush stone with your bare hands and break down doors with your bare
+feet. Higher Vigor will let you chop down trees in a single blow, pick up 10m
+high stone statues, and win every game of tug o’ war. Lower Vigor leaves you
+meek and fragile, easy to wound, and struggling to carry the groceries home from
+the market.
 
 ## Dexterity (DEX)
 
@@ -47,12 +47,11 @@ unfamiliar circumstances and think on your feet. It lets you win debates with
 sound logic, and outwit your opponents using new and innovative strategies.
 Cognition is also important for application of some academics, such as high
 level mathematics, mechanics, magic, and alchemy. Cognition is also used to
-compile clues into conclusions, and predict what people will do next. It is also
-used for some types of magic. High Cognition will turn you into a mastermind of
-prediction and reasoning, solving crimes and picking apart your enemies schemes
-as if they were toddlers. Low Cognition leaves you vulnerable to even the
-simples tricks and logical fallacies and will make any kind of mental exertion
-simply exhausting.
+compile clues into conclusions, predict what people will do next, and cast some
+types of magic. High Cognition will turn you into a mastermind of prediction and
+reasoning, solving crimes and picking apart your enemies schemes as if they were
+toddlers. Low Cognition leaves you vulnerable to even the simples tricks and
+logical fallacies and will make any kind of mental exertion simply exhausting.
 
 ## Resolve (RES)
 
@@ -82,47 +81,40 @@ pawnshop, or detect the spirits of living things through walls and hiding
 places. Low Connection will render you socially awkward, and make it difficult
 for you to notice and understand other living things.
 
-## Starting Attribute Values
+## Attributes as You Level
 
-When making a character your starting attributes are determined by rolling a d6,
-and subtracting 5 from the result. You will do this six times and can choose
-which attribute each value goes to. So when creating your character, roll 1d6
-and subtract 5, six times. This will give you values between -4, and 1. You can
-then add a total of 3 points to your attributes, split in any way you’d like: +1
-to three attributes, +2 to one, and +1 to another, or +3 to one. You will repeat
-this process of adding 3 points to your Attributes every time you level up. But
-make sure not to go over your attribute cap.
+When making a character your starting attributes are determined by your race,
+and can vary wildly. Though most common races will have some variant of rolling
+1d6-5 six times, and choosing what stat to put them in, then adding one more
+point on top.
 
-## Attribute Caps
+For example, [Vincals](../races/common.md#Vincals) roll 1d6-5 six times,
+rerolling their lowest and highest rolls, then distributing their points. On the
+other hand [Goblins](../races/uncommon.md#Goblins) start with -4 in every stat,
+and may choose to add 1d6 to any stat at the cost of a goblin point. The more
+goblin points a Goblin has, the stronger their racial is.
 
 There are caps to how high an attribute can be at any given level determined by
-the table below.
+the table below. Bonuses to your ATT cannot exceed this limit unless explicitly
+stated. It can be calculated as half your level rounded down.
 
-|         |      |      |      |      |      |      |      |      |      |     |
-| ------- | ---- | ---- | ---- | ---- | ---- | ----:| ----:| ----:| ----:|----:|
-| Level   | 1    | 2    | 3    | 4    | 5    | 6    | 7    | 8    | 9    | 10  |
-| ATT Cap | 5    | 6    | 7    | 8    | 9    | 10   | 12   | 14   | 15   | 15  |
+|         |    |    |    |    |    |    |    |    |    |    |    |    |
+|:------- | --:| --:| --:| --:| --:| --:| --:| --:| --:| --:| --:| --:|
+| Level   | 1  | 2  | 3  | 4  | 5  | 6  | 7  | 8  | 9  | 10 | 11 | 12 |
+| ATT Cap | 0  | 1  |    | 2  |    | 3  |    | 4  |    | 5  |    | 6  |
 
-Racial, equipment, and other bonuses to Attributes are applied after the Stat
-Cap, and allow you to exceed it. For instance, a race which gives you +1 to
-Vigor, could have a Vigor of 5 at level 1, and then gain the +1 from their race,
-causing them to have a Vigor of 6. It is a good idea to record this as 5+1 on
-your character sheet so you can distinguish from your bonus and your attribute.
+Finally, you add 1 to any attribute of your choosing when you level up, of
+course this cannot exceed the ATT cap at your new level.
 
 ## Summary
 
-The Attributes, and what they are used for are, in short: Vigor: Your strength
-and athletic abilities. Heavy weapons.  Dexterity: Your precision and agility.
-Light weapons.  Education: Your memory and academic knowledge. Some magical
-effects.  Cognition: Your mental prowess and intuition. Some magical effects.
-Resolve: Your spiritual strength and self confidence. Emotional effects.
-Connection: Your social aptitude, and spiritual perception. Mental and musical
-effects.
+The Attributes are the core of your character, split into 6 different
+statistics. They are: Vigor: Your strength and athletic abilities. Dexterity:
+Your precision and agility. Education: Your memory and academic knowledge.
+Cognition: Your mental prowess and intuition. Resolve: Your spiritual strength
+and self confidence. Connection: Your social aptitude, and spiritual perception.
 
-Attributes are the core of your character, split into 6 different statistics,
-each allowing you to do different things. You calculate them by rolling 1d6-5
-six times. Once you’ve rolled them all, you choose where each result goes. At
-each level (including level 1) you will add 3 attributes points, which can be
-split between the 6 different attributes however you’d like. There is a limit to
-how high an attribute can go based on your level. Racial mods, equipment, and
-other bonuses are applied after this cap, allowing you to surpass it.
+When you first create your character your race will determine how to calculate
+your attributes. After that you will add 1 to any of your attributes whenever
+you level up, never going above your attribute cap, which is half your level
+rounded down.
