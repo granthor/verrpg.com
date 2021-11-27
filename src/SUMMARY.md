@@ -12,7 +12,6 @@
 		./creating-a-character/what-is-a-character-sheet.md
 	)
 		- [Characterpdf]()
-		)
 	- [Character Progression](./creating-a-character/character-progression.md)
 	- [Your Race](./creating-a-character/race.md)
 		- [Attributes](./creating-a-character/attributes.md)
@@ -49,9 +48,7 @@
         	./constitutions/elemental-ice.md
         )
 		- [Elemental Light]()
-		- [Elemental Space](
-			./constitutions/elemental-space.md
-		)
+		- [Elemental Space]()
 	- [Education Constitutions]()
 		- [Elemental Fire]()
 		- [Elemental Land]()
@@ -61,9 +58,9 @@
 		- [Mentalist](./constitutions/mentalist.md)
 		- [Rapture]()
 	- [Resolve Constitutions]()
-		- [Etherial]()
-		- [Histeria]()
-        - [Styx Redeemed](./constitutions/styx-redeemed.md)
+		- [Ethereal]()
+		- [Hysteria]()
+		- [Styx-Redeemed](./constitutions/styx-redeemed.md)
 ---
 - [Equipment]()
 	- [Physical Weapons](./equipment/physical-weapons.md)

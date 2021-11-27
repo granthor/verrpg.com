@@ -1,7 +1,7 @@
 # Elemental Force (COG)
 
 ## Governed By:
-[[Questona]], Dragon of Force, Well Guardian
+Questona, Dragon of Force, Well Guardian
 
 ## Precepts
 
@@ -12,12 +12,12 @@ Elemental magic requires a magical foci: Orb, Wand, Staff or Literature, to use.
 Every force action causes some sort of reaction to the person who cause the action in the first place.
 
 ### Precept, Mass
-Force affects things proportional to their mass. Objects which are less massive will be moved more by force than objects which are more massive.  
+Force affects things proportional to their mass. Objects which are less massive will be moved more by force than objects which are more massive.
 
 ## Genres
 
 ### Genre, Push
-Requires rating of Beginner (1). Force can be applied to an object as a directional vector, which pushes on them from their center of mass. The push on its own is not strong enough to harm, but contact with things flung, or flung things contacting solid things can deal toughness. 
+Requires rating of Beginner (1). Force can be applied to an object as a directional vector, which pushes on them from their center of mass. The push on its own is not strong enough to harm, but contact with things flung, or flung things contacting solid things can deal toughness.
 
 The reaction of pushing is for the caster to have the same force applied to them in the opposite direction.
 
