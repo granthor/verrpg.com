@@ -61,3 +61,9 @@
 	- [Magical Weapons](./equipment/magical-weapons.md)
 	- [Spiritual Weapons](./equipment/spiritual-weapons.md)
 	- [Defensive Equipment]()
+---
+- [Traits]()
+	- [Companion Traits](./traits/companions.md)
+	- [Personality Traits](./traits/personality.md)
+	- [Field Traits](./traits/fields.md)
+	- [Racial Traits](./traits/racials.md)
