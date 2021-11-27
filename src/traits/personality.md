@@ -1,5 +1,14 @@
 # Personality Traits
 
+**Exploitative**, Tales: 4
+
+You are skilled in utilizing even the slightest advantage to destroy your
+opponents. Beware that most people don't enjoy watching you kick someone while
+they're down.
+
+When attacking a target you gain Shred equal to your Circumstance/2. You may not
+wound a target unless you have a Circumstantial bonus.
+
 **Ominous**, Tales: 5
 
 Something about you is frightful, intimidating or unnerving. Perhaps you are
@@ -10,16 +19,6 @@ you've been cursed.
 Most people feel your presence through the Bond. All targets within Medium range
 with at least CNT -1 will be made known of your presence and approximate
 location.
-
-**Exploitative**, Tales: 5
-
-You are skilled in utilizing even the slightest advantage to destroy your
-opponents. Beware that most people don't enjoy watching you kick someone while
-they're down.
-
-When attacking a target you gain either Shred, Chaos, or Rebound equal to
-your Circumstance/2. You may not wound a target unless you have a Circumstantial
-bonus.
 
 **Tale-Spinner**, Tales: 6
 
