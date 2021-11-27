@@ -1,4 +1,4 @@
-# Mentalism (CNT)
+# Mentalist (CNT)
 
 ## Precepts
 
@@ -74,11 +74,9 @@ amounts of memory or information very quickly. But if improperly managed
 (intentionally or not) leads to intense confusion and a lingering mixing of
 ideas, memories, and sensation.
 
-Convergence is highly sensitive to the number and type of participants. Assume
-that if the Mentalist wishes to merge more than two minds this increases the
-Rating of the effect by at least one. Assume that if the Mentalists wishes to
-exclude themselves from the participants this increases the Rating of the effect
-by at least one.
+Convergence is highly sensitive to the number and type of participants.
+Specifically participants who are unwilling. Additionally convergence is more
+difficult when the mentalist's mind is not involved in the merging.
 
 **Domination**: Requires Rating of Intermediate (2).  Instead of merging with
 another target you dominate them instead. Domination over the Mental Surface
@@ -96,19 +94,6 @@ complete rewriting of a person into anything from another person, to a brain
 dead thrall. It is an act almost universally despised and outlawed in every
 culture and time. Assume any attempt to dominate the Mental Anchor increases an
 effect's Rating by four.
-
-## Addendums
-
-### Addendum, Psychic Fortress:
-
-Requires Rating of Intermediate (2). Allows you to manipulate your own
-Mindscape, adding and re-arranging layers and contents as you see fit. Spending
-significant time and resources on this endeavor allows you to increase your Will
-Defense against mentalism effects by up to your skill Rating/3.
-
-Truly skilled mentalists can even create regions of their mind to entrap
-mentalists, or other minds. Or to suck in the minds of victims through
-Convergence into horrible mazes and mental hellscapes of their own invention.
 
 ## Example Use
 
