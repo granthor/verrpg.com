@@ -60,4 +60,4 @@
 	- [Physical Weapons](./equipment/physical-weapons.md)
 	- [Magical Weapons](./equipment/magical-weapons.md)
 	- [Spiritual Weapons](./equipment/spiritual-weapons.md)
-	- [Defensive Equipment](./equipment/defensive.md)
+	- [Defensive Equipment]()
