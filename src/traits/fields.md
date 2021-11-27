@@ -17,6 +17,7 @@ When a willing creature within Medium range created an Empowered Field, you may
 apply apply any of your Field traits to their Field creation.
 
 **Shady Field**, Tales: 2
+
 When you roll a critical, instead of creating an Empowered Field, you instead
 create a Shady Field with radius 1m.
 
@@ -24,6 +25,7 @@ Shady Field: When using a weapon, roll 1d6-2 instead of 1d6. If your result is
 less than 1, treat it as 1. Lasts until the end of the current encounter.
 
 **Field of Murderous Intent**, Tales: 2
+
 When you roll a critical, instead of creating an Empowered Field, you instead
 create a Field of Murderous Intent with radius 1m.
 
@@ -32,6 +34,7 @@ your result is more than 6, treat it as 6. Lasts until the end of the current
 encounter.
 
 **Elemental Flux Field**, Tales: 2
+
 One of the eight elements clings to you. Perhaps one of your distant ancestors
 was touched by a dragon or powerful elemental. Perhaps your personality is self
 similar to this element, or else you were placed under some magical curse, or

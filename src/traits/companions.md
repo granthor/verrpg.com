@@ -4,6 +4,7 @@ The traits in this document are focused around companions, familiars, and pets
 that help your character.
 
 **Has a Pet**, Tales: 2
+
 This trait may only be taken at character creation or at GM discretion.
 
 You have an ordinary pet, partially trained. They are an independent, mortal
@@ -27,6 +28,7 @@ Determine values with the GM, following these guidelines.
 - One Beginner (1) Background Skill in being whatever type of creature they are.
 
 **Has a Familiar**, Tales: 12, Requires 'Has a Pet'
+
 Gain a new familiar in addition to your pet. Alternatively, your old pet and
 the bond between you has been enhanced and transformed them into a stronger
 creature.
@@ -50,11 +52,13 @@ a new stat block with your GM based on these guidelines.
 - One Intermediate (2) Skill of your choosing.
 
 **Pet Assistant**, Tales: 3, Requires 'Has a Pet'
+
 When within arms reach of your pet, or familiar, you may choose to have them
 assist you with a skill check. The pet loses 1 Toughness as it exerts itself to
 help you. You gain a Circumstance bonus equal to your pet's applicable ATT stat.
 
 **Bonded Familiar**, Tales: 3, Requires 'Has a Pet'
+
 The bond between you and your pet or familiar is extraordinarily strong. With a
 Free action you can sense the precise direction and distance between you and
 your familiar at any range. While within Close to Far range you can discern your

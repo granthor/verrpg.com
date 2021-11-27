@@ -50,14 +50,13 @@ can deliver a decisive blow.
 ||2 Violence|4 Violence|4 Violence*|8 Violence*|9 Violence*|
 |4 Shred|3 Shred|3 Shred|2 Shred*|2 Shred*|  |
 
-*When rolled gain -1 physical defenses until the end of your next turn.
+*Gain -1 physical defenses until the end of your next turn.
 
 **Bladeless Edge**, DEX, *2 Handed*. Skill: Intermediate
 
 |  |  |  |  |  |  |
 |:-|:-|:-|:-|:-|:-|
-|Sheath Blade|Sheath Blade|Sheath Blade|Sheath Blade|Sheath Blade|Sheath
-Blade|
+|Sheath Blade|Sheath Blade|Sheath Blade|Sheath Blade|Sheath Blade|Sheath Blade|
 |4 Shred|3 Shred|3 Shred|2 Shred|2 Shred|2 Shred|
 
 Sheath Blade: Sheath your blade and inflict Violence equal to the amount of
@@ -114,6 +113,7 @@ again.
 |:-|:-|:-|:-|:-|:-|
 |8 Violence|9 Violence|10 Violence|12 Violence|12 Violence|13 Violence|
 |3 Shred|2 Shred|1 Shred|1 Shred|1 Shred| |
+
 Gain +1 Shred, -1 Violence on a mount. When jumping off a mount gain
 Circumstance -2, and +2 Violence.
 

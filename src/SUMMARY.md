@@ -67,3 +67,4 @@
 	- [Personality Traits](./traits/personality.md)
 	- [Field Traits](./traits/fields.md)
 	- [Racial Traits](./traits/racials.md)
+	- [Warfare Traits](./traits/warfare.md)

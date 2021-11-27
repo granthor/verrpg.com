@@ -105,3 +105,16 @@ rating of the effect should be altered by how much time and energy you spent
 preparing.
 
 On use you may expend 2 Tales to increase the Rating of your effect by 1.
+
+**Steadying**, Tales: 10
+
+When nearby, those around you feel compelled to remain and see things through.
+Perhaps you yourself are a very thorough, slow, and steady person, or maybe you
+merely inspire this in others.
+
+Subtract 1m from your movement stat. At the end of your turn you must choose one
+of the following effects to apply to each adjacent target:
+- +1 Will Fortification
+- +1 Null Fortification
+- +1 Escape Fortification
+- Lose their next movement action.
