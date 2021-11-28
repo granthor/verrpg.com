@@ -31,3 +31,17 @@ Having given their lives to the shadows, the Sholl have a very close connection 
 | **Racial:**        For your move action you can sink into shadows and move through them up to a distance of 2*(-VIG). You must exit the shadow by the end of your turn. While in the shadow you are only damaged by those things which make the shadow disappear. |
 | **Languages:** Light Elemental                                                                                                                                                                                                                                    |
 | **Characteristics:**                                                                                                                                                                                                                                              |
+## Ogre
+
+| Defenses |     |         |     |            |     |
+|:-------- | ---:| -------:|:--- |:---------- | ---:|
+| Escape   |  -1 | Thaumic | -1  | Resilience |   0 |
+| Blunt    |   1 |    Null |  0  | Aegis      |  -1 |
+| Cut      |   0 |     Wit | -2  | Will       |   0 |
+
+|                                                                                                                                                                                                                                                                   |
+|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Attributes:** You have 3 goblin points. Roll 6 1d6-4. If you roll a value of 2, you may lose 1 maximum goblin point to roll 2d6-4 for that value instead. If either of the dice has a 1 or a 2 the value is now -4. Otherwise the value is the sum of the dice minus 4, capped at 6. You now distribute the values you got to each attribute. Add 1 to an Attribute of your choosing. |
+| **Racial:** When rolling a 6 on a weapon die, you may spend one goblin point to reroll with 2d6, summing the values on the dice block. If you roll a 1 on either dice, the effect fails. Regain a goblin point whenever you wound someone. |
+| **Languages:** Goblin                                                                                                                                                                                                                                    |
+| **Characteristics:**                                                                                                                                                                                                                                              |

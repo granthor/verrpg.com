@@ -31,7 +31,7 @@
 - [Races]()
 	- [Common](./races/common.md)
 	- [Uncommon](./races/uncommon.md)
-	- [Rare]()
+	- [Rare](./races/rare.md)
 ---
 - [Constitutions](./constitutions/what-are-constitutions.md)
 	- [Cognitive Constitutions]()

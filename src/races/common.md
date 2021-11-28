@@ -97,3 +97,19 @@ Not a cast of dwarvish society, but a resistance group. These dwarves left the d
 | **Racial:** You may increase all spiritual defenses by 1 until the end of your next turn. Until your defenses return to normal you cannot use your move action. |
 | **Languages:** Dwarvish |
 | **Characteristics:** Pirates appearance is much like Drost due to their lack of eugenics. Males average 65kg, 145 cm. Females 60kg, 140cm. Their hair can come in any color from blond to brown, black, or occasionally red. The skin ranges from tan to brown, or light red. They can live for up to 275 years, and become adults at 18 |
+
+## Goblin
+
+
+| Defenses |     |         |     |            |     |
+|:-------- | ---:|:------- | ---:|:---------- | ---:|
+| Escape   | 1  | Thaumic | -1  | Resilience | -1   |
+| Blunt    | -1   | Null    | 0  | Aegis      | -1  |
+| Cut      | -1   | Wit     | 0  | Will       | 0   |
+
+||
+|:-|
+| **Attributes:** Start with -4 in every stat. You have 13 maximum goblin points. For the cost of 2 maximum goblin points, you may add 1d6 to any stat. Your stats cannot go over 2. |
+| **Racial:** You may spend on goblin point to reroll any die. Regain all goblin points after stealing something that will be missed from someone else. You may raise your maximum number of goblin points by stealing something especially special to someone. |
+| **Languages:** Goblin |
+| **Characteristics:**  |
