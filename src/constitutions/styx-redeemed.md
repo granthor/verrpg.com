@@ -9,7 +9,7 @@
 Protect the weak from the wicked, and the wicked from themselves. Empathy and understanding are the highest virtues. The outcome which is proper is not always the one which is just.
 
 ### Precept, Chains
-I shall grant you two chains with which to fullfil these edicts. They are bound to your Idol of me and should it be taken from you or lost, they too will be lost until you regain your Idol.
+I shall grant you two chains with which to fullfil these edicts. They are bound to your Idol of me and should it be taken from you or lost, they too will be lost until you regain your Idol. My symbol is that of a mountain, wrapped in shattered chains.
 	
 Summoning a Chain is a Free Action.
 
