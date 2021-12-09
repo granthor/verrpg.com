@@ -41,7 +41,8 @@
 		- [Elemental Ice](
         	./constitutions/elemental-ice.md
         )
-		- [Elemental Light]()
+		- [Elemental Light](
+        	.constitutions/elemental-light.md)
 		- [Elemental Space]()
 	- [Education Constitutions]()
 		- [Elemental Fire]()
