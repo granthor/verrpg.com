@@ -16,11 +16,11 @@ Throughout the constitution you may see reference to the following terms.
 
 Blind: Target suffers Circumstance -4 on all rolls until the effect ends.
 
-Darkness: When targeting entities in Dim Light, take Circumstance -4. Gain Circumstance +4 to all Stealth rolls while in Dim Light.
+Darkness: When targeting entities in Darkness with anything other than an AoE, take Circumstance -4. Gain Circumstance +4 to all Stealth rolls while in Dim Light.
 
-Dim Light: When targeting entities in Dim Light, take Circumstance -2. Gain Circumstance +2 to all Stealth rolls while in Dim Light.
+Dim Light: When targeting entities in Dim Light with anything other than an AoE, take Circumstance -2. Gain Circumstance +2 to all Stealth rolls while in Dim Light.
 
-Bright Light: When targeting entities in Bright Light, gain Circumstance +2. Take Circmustance -2 on all Stealth rolls while in Bright Light.
+Bright Light: When targeting entities in Bright Light with anything other than an AoE, gain Circumstance +2. Take Circmustance -2 on all Stealth rolls while in Bright Light.
 
 ## Genres
 
