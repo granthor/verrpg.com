@@ -11,7 +11,7 @@ Casting elemental magic requires a magical foci: Orb, Wand, Staff or Literature.
 ### Precept, Inner Light:
 When you cast effects which create light you begin to glow, letting off soft wisps of light.
 
-### Precept, Common Defenitions:
+### Precept, Common Definitions:
 Throughout the constitution you may see reference to the following terms.
 
 Blind: Target suffers Circumstance -4 on all rolls until the effect ends.
