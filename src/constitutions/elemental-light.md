@@ -16,24 +16,25 @@ Throughout the constitution you may see reference to the following terms.
 
 Blind: Target suffers Circumstance -4 on all rolls until the effect ends.
 
-Dim Light: When targeting entities in Dim Light, take Circumstance -2. Gain Circumstance +4 to all Stealth rolls while in Dim Light.
+Darkness: When targeting entities in Dim Light, take Circumstance -4. Gain Circumstance +4 to all Stealth rolls while in Dim Light.
 
-Bright Light: When targeting entities in Bright Light, gain Circumstance +2. Take Circmustance -4 on all Stealth rolls while in Bright Light.
+Dim Light: When targeting entities in Dim Light, take Circumstance -2. Gain Circumstance +2 to all Stealth rolls while in Dim Light.
+
+Bright Light: When targeting entities in Bright Light, gain Circumstance +2. Take Circmustance -2 on all Stealth rolls while in Bright Light.
 
 ## Genres
 
-### Genre, Lumen Prism:
-Requires Rating of Beginner (1). Form a small, prism-like barrier which either amplifies or dims any light passing through it. This does not effect the light source itself, but does allow you to control it's luminosity. Skilled users can cause the prism to reflect or redirect light, or cause the surface of the prism to vary and specify different levels of amplification or dimming over different segments.
+### Genre, Luminosity:
+Requires Rating of Beginner (1): Form a source of either light or darkness. Like normal light sources, these emit or suppress light in a spherical radius. The maximum number of sources created and intensity of the light or darkness will depend on the effect's rating. 
 
-Though multiple prisms can be created at once with skilled casting, all prism segments must be kept small and encase a source of light. Skilled casting can link a prism segment to a physical light source, causing the prism to follow the light if it is moved.
+Light sources created this way which last until the end of the encounter and can easily create regions of either Bright Light, or Dim Light. 
 
-This barrier is permiable and can be passed through with ease. When placed around a source of normal light it can easily be made to either amplify light that passes through it into Bright Light or lessen it into Dim Light.
+Light sources created this way which last a single round can create regions of Darkness, or inflict Blinded on targets.
 
+Modification of pre-existing light sources is easier than creation of new ones. If placed over a pre-existing light source this Genre modifies it instead of forming a new light, gain Circumstance +4.
 
-
-**Eat Light** Requires Rating of Beginner (1). Requires a movement action only and does not require a roll. Pop a source of light or darkness within Close (1-5m) range creating an intense burst of light or darkness. Popped light can blind or inflict minor damage to adjacent creatures, and popped darkness creates a sphere of total blackness covering it and all adjacent spaces which cannot be seen into or out of and lasts until the start of your next turn.
-
-A popped light counts as an attack against a target's Escape with rating equal to your Elemental Light skill. Blinded targets will take Circumstance -4 on all actions during their next turn and light sensitive targets may suffer damage.
+**Eat Light**
+Requires Rating of Intermediate (2): You may spend a Normal Action to eat Close (5m) magical sources of light or darkness, extinguishing them. You may eat as many sources as you wish in a single action, and as long as you eat at least one, gain Circumstance +4 on any Elemental Light effects you perform until the end of your next turn.
 
 ### Genre, Illusion:
 Requires Rating of Intermediate (2): Twist light into an illusion of your own imagination and tie it to an animate or inanimate object. The easiest illusions are inanimate ones, or animated ones which move in repeated cycles, but more advanced illusions can act and appear to interact with the world as their real counterpart would. All illusions are physically tied to their object and will move with it, or dissipate if the object is destroyed. 
@@ -45,4 +46,6 @@ Illusions are an attack against a target's Wit. Targets may be granted a Wit bon
 ## Addendums
 
 ### Addendum, Printasmic Apotheosis:
-Requires Rating of Master (4).
+Requires Rating of Master (4) and a period of intense research, encounter with Aroura, or similar trigger event. You can bend light into a deadly new form which shimmers in a wild mirage of colors and vaporizes everything it touches. 
+
+This Genre requires intense concentration and can only be used while under the effects of **Eat Light**. Should an effect fail, the the Printasmic light escapes your control, likely with devistating consiquences.
